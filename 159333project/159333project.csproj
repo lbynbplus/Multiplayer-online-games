@@ -7,4 +7,8 @@
     <RootNamespace>_159333project</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="game\map\" />
+  </ItemGroup>
+
 </Project>
