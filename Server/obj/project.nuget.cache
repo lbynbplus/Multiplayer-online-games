@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z3T/2HzCm1y4OUGG6MVc3/G6n6kvusWjGnTzSxZUE6vzCkO3EN5b/nHAm6in6WyleIRpOlbB4rFpRfdwcIQdrw==",
+  "dgSpecHash": "7URXKqchp5qUwUTvjIfxUzy8JIruax+cFKLjLAv6bacHtg3ousCZsji2H0ga9tpFs18JBzvY/g+rKEwqmdIwog==",
   "success": true,
-  "projectFilePath": "D:\\git code\\159333project\\Server\\Server.csproj",
+  "projectFilePath": "D:\\git code\\159333project\\server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

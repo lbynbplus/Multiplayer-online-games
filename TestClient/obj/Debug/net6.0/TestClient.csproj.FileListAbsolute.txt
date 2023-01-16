@@ -1,0 +1,17 @@
+D:\git code\159333project\TestClient\bin\Debug\net6.0\TestClient.exe
+D:\git code\159333project\TestClient\bin\Debug\net6.0\TestClient.deps.json
+D:\git code\159333project\TestClient\bin\Debug\net6.0\TestClient.runtimeconfig.json
+D:\git code\159333project\TestClient\bin\Debug\net6.0\TestClient.dll
+D:\git code\159333project\TestClient\bin\Debug\net6.0\TestClient.pdb
+D:\git code\159333project\TestClient\bin\Debug\net6.0\websocket-sharp.dll
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.csproj.AssemblyReference.cache
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.AssemblyInfoInputs.cache
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.AssemblyInfo.cs
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.csproj.CoreCompileInputs.cache
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.csproj.CopyComplete
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.dll
+D:\git code\159333project\TestClient\obj\Debug\net6.0\refint\TestClient.dll
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.pdb
+D:\git code\159333project\TestClient\obj\Debug\net6.0\TestClient.genruntimeconfig.cache
+D:\git code\159333project\TestClient\obj\Debug\net6.0\ref\TestClient.dll

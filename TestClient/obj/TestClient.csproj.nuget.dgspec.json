@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git code\\159333project\\server\\Server.csproj": {}
+    "D:\\git code\\159333project\\TestClient\\TestClient.csproj": {}
   },
   "projects": {
-    "D:\\git code\\159333project\\server\\Server.csproj": {
+    "D:\\git code\\159333project\\TestClient\\TestClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git code\\159333project\\server\\Server.csproj",
-        "projectName": "Server",
-        "projectPath": "D:\\git code\\159333project\\server\\Server.csproj",
+        "projectUniqueName": "D:\\git code\\159333project\\TestClient\\TestClient.csproj",
+        "projectName": "TestClient",
+        "projectPath": "D:\\git code\\159333project\\TestClient\\TestClient.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\git code\\159333project\\Server\\obj\\",
+        "outputPath": "D:\\git code\\159333project\\TestClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,10 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "System.Net.WebSockets": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "WebSocketSharp-NonPreRelease": {
               "target": "Package",
               "version": "[1.0.0, )"

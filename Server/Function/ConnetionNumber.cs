@@ -8,7 +8,7 @@ using WebSocketSharp;
 
 namespace Server.Function
 {
-    public class ConnetionNumber :WebSocketState
+    public class ConnetionNumber :WebSocketBehavior
     {
       
     }

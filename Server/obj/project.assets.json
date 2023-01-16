@@ -875,9 +875,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git code\\159333project\\Server\\Server.csproj",
+      "projectUniqueName": "D:\\git code\\159333project\\server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "D:\\git code\\159333project\\Server\\Server.csproj",
+      "projectPath": "D:\\git code\\159333project\\server\\Server.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "D:\\git code\\159333project\\Server\\obj\\",
       "projectStyle": "PackageReference",
