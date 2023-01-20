@@ -11,7 +11,7 @@
         "projectName": "Server",
         "projectPath": "D:\\git code\\159333project\\server\\Server.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\git code\\159333project\\Server\\obj\\",
+        "outputPath": "D:\\git code\\159333project\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
             "WebSocketSharp-NonPreRelease": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "protobuf-v120": {
+              "target": "Package",
+              "version": "[2.6.1, )"
             }
           },
           "imports": [

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7URXKqchp5qUwUTvjIfxUzy8JIruax+cFKLjLAv6bacHtg3ousCZsji2H0ga9tpFs18JBzvY/g+rKEwqmdIwog==",
+  "dgSpecHash": "tbNBZ7IYKVzFX0GEy8CF4135RYgeBq6/yn06DbB1Eg8MXakOHA9bC/8cOLq4OKb96T6oDrSaPqhuYyFzie9kdg==",
   "success": true,
   "projectFilePath": "D:\\git code\\159333project\\server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\protobuf-v120\\2.6.1\\protobuf-v120.2.6.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.net.websockets\\4.3.0\\system.net.websockets.4.3.0.nupkg.sha512",
