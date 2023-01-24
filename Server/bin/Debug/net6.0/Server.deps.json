@@ -9,7 +9,8 @@
       "Server/1.0.0": {
         "dependencies": {
           "System.Net.WebSockets": "4.3.0",
-          "WebSocketSharp-NonPreRelease": "1.0.0"
+          "WebSocketSharp-NonPreRelease": "1.0.0",
+          "protobuf-v120": "2.6.1"
         },
         "runtime": {
           "Server.dll": {}
@@ -24,6 +25,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "protobuf-v120/2.6.1": {},
       "System.Globalization/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -129,6 +131,13 @@
       "sha512": "sha512-9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "path": "microsoft.win32.primitives/4.3.0",
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
+    },
+    "protobuf-v120/2.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A1ZP0BaencuavQpsjhRN2mYXrkRL0RJuqdUuVEROd2eehs3q9TH1RJbIvo4F2iiDlu8s1HxSN8dFwTXe+SPeVg==",
+      "path": "protobuf-v120/2.6.1",
+      "hashPath": "protobuf-v120.2.6.1.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
