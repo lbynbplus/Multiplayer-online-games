@@ -5,25 +5,35 @@ using System.Text;
 using System.Threading.Tasks;
 using WebSocketSharp.Server;
 using WebSocketSharp;
+using Server;
 
 namespace Server.Function
 {
     public class WaitingRoom : WebSocketBehavior
     {
-        private List<String> AssPlayerID = new List<String>{"1", "2", "3", "4", "5", "6"};
+        public int[] AssPlayerID = new int[]{ 1,2,3,4,5,6};
 
-
-        protected override void OnOpen()
+        public String SendID()
         {
-          while (true)
-            {
-                Sessions.Broadcast(Sessions.Count.ToString());
-                if (Sessions.Count >= 6) break;
-            }
+            int i = Sessions.Count;
+            Console.WriteLine(Sessions.Count.ToString());
+            return AssPlayerID[--i].ToString();
         }
         protected override void OnMessage(MessageEventArgs e)
         {
-            Sessions.Broadcast(e.Data);
+            Console.WriteLine(e.Data);
+            if(e.Data == "hello") { Send(SendID()); } else
+            {
+                Sessions.Broadcast(e.Data);
+            }
+        }
+
+        public String CheckNextStep()
+        {
+            if(Sessions.Count >= 6) { return Program.GameState.GameRoom.ToString(); } else
+            {
+                return Program.GameState.WaitingRoom.ToString();
+            }
         }
     }
 }

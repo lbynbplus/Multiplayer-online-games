@@ -7,8 +7,7 @@ namespace Server
     {
         protected override void OnOpen()
         {
-            //Sessions.ActiveIDs.GetEnumerator().MoveNext();
-           
+            Sessions.Broadcast(Sessions.Count.ToString());
         }
 
         protected override void OnMessage(MessageEventArgs e)

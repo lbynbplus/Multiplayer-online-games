@@ -1008,7 +1008,7 @@
       "projectName": "Server",
       "projectPath": "D:\\git code\\159333project\\server\\Server.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\git code\\159333project\\server\\obj\\",
+      "outputPath": "D:\\git code\\159333project\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
