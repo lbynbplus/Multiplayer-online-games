@@ -6,44 +6,38 @@ using System.Threading.Tasks;
 
 namespace Server.Data
 {
-    public class coding
-    {
+//     public class coding
+//     {
       
-    }
-    public class Data
-    {
+//     }
+//     public class Data
+//     {
         
-    }
+//     }
 
-    //public class Board
-    //{
-    //    Player players;
-    //    Card cards;
-    //    PlayerPiece playerPieces;
-    //}
+   public class Game
+   {
 
-    //players
-    public class Player
-    {
-        public int position { get; set; }
-        public string playername { get; set; }
-        public int playerid { get; set; } = 1;
+        //Method to add players
+        public void addPlayer()
+        {
+            var playerLists = new ArrayList();
+            Player player1 = new Player();
+            Player player2 = new Player();
+            Player player3 = new Player();
+            Player player4 = new Player();
+            Player player5 = new Player();
+            Player player6 = new Player();
 
-    }
-    //Cards
-    public class Card
-    {
-        public string cardName { get; set; }
-        public string cardColor { get; set; }
-     
-    }
+            playerLists.Add(player1);
+            playerLists.Add(player2);
+            playerLists.Add(player3);
+            playerLists.Add(player4);
+            playerLists.Add(player5);
+            playerLists.Add(player6);
+        }
 
-    //Player Piece
-    public class PlayerPiece
-    {
-        public int[] numberofPieces = new int[6];
-        public int piecePosition { get; set;}
-        public string pieceColor { get; set; }
+
     }
 
 }
