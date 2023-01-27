@@ -33,8 +33,8 @@ namespace Server.Data
     //Cards
     public class Card
     {
-        public int cardName { get; set; }
-        public int cardColor { get; set; }
+        public string cardName { get; set; }
+        public string cardColor { get; set; }
      
     }
 
