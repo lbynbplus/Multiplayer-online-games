@@ -15,3 +15,20 @@ D:\git code\159333project\Server\obj\Debug\net6.0\refint\Server.dll
 D:\git code\159333project\Server\obj\Debug\net6.0\Server.pdb
 D:\git code\159333project\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
 D:\git code\159333project\Server\obj\Debug\net6.0\ref\Server.dll
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.exe
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.deps.json
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.runtimeconfig.json
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.dll
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.pdb
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\websocket-sharp.dll
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.AssemblyInfo.cs
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.csproj.CopyComplete
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.dll
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\refint\Server.dll
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.pdb
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
+C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\ref\Server.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git code\\159333project\\TestClient\\TestClient.csproj": {}
+    "C:\\Users\\Rusira\\Desktop\\159333 Project\\159333 Project GitHub\\159333project\\TestClient\\TestClient.csproj": {}
   },
   "projects": {
-    "D:\\git code\\159333project\\TestClient\\TestClient.csproj": {
+    "C:\\Users\\Rusira\\Desktop\\159333 Project\\159333 Project GitHub\\159333project\\TestClient\\TestClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git code\\159333project\\TestClient\\TestClient.csproj",
+        "projectUniqueName": "C:\\Users\\Rusira\\Desktop\\159333 Project\\159333 Project GitHub\\159333project\\TestClient\\TestClient.csproj",
         "projectName": "TestClient",
-        "projectPath": "D:\\git code\\159333project\\TestClient\\TestClient.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\git code\\159333project\\TestClient\\obj\\",
+        "projectPath": "C:\\Users\\Rusira\\Desktop\\159333 Project\\159333 Project GitHub\\159333project\\TestClient\\TestClient.csproj",
+        "packagesPath": "C:\\Users\\Rusira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rusira\\Desktop\\159333 Project\\159333 Project GitHub\\159333project\\TestClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Rusira\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

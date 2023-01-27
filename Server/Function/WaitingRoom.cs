@@ -11,7 +11,7 @@ namespace Server.Function
 {
     public class WaitingRoom : WebSocketBehavior
     {
-        public int[] AssPlayerID = new int[]{ 1,2,3,4,5,6};
+        public int[] AssPlayerID = new int[]{1,2,3,4,5,6};
 
         public String SendID()
         {

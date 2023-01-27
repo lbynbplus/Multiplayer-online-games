@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Server"
+    "\\Server",
+    "\\Server\\Function"
   ],
-  "SelectedNode": "\\Server\\Server.sln",
+  "SelectedNode": "\\Server\\Function\\WaitingRoom.cs",
   "PreviewInSolutionExplorer": false
 }
