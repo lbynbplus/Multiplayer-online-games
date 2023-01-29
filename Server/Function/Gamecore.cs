@@ -23,6 +23,15 @@ namespace Server.Function
             Console.WriteLine(Sessions.Count.ToString());
             return AssPlayerID[--i].ToString();
         }
+
+        protected override void OnOpen()
+        {
+            if(Sessions.Count >= 6)
+            {
+                Sessions.Broadcast("$%*&%$");
+                Sessions.Broadcast(CreatData());
+            }
+        }
         protected override void OnMessage(MessageEventArgs e)
         {
             switch (CheckNextStep())
@@ -48,9 +57,25 @@ namespace Server.Function
                     }
                     break;
                 case 1:
-                    HowSendMsg(e.Data);
-
-                    break; 
+                    MsgAnalysis(e.Data);
+                    int tempid = HowSendMsg();
+                    if (tempid!=0)
+                    {
+                        switch (CheckWhichState(tempid))
+                        {
+                            case 0:
+                                Sessions.Broadcast("PPLMOVE$" + tempid.ToString() + "/" + playerlist[tempid].position);
+                                break;
+                            case 1:
+                                Sessions.Broadcast("PPLTALK$" + tempid.ToString() + "/" + playerlist[tempid].msg);
+                                break;
+                        }
+                        break;
+                    }
+                    else
+                    { 
+                        break;
+                    }
                 case 2:
 
                     break;
@@ -113,23 +138,35 @@ namespace Server.Function
             }
         }
 
-        public String HowSendMsg(string msg)
+        public int HowSendMsg()
         {
-            MsgAnalysis(msg);
             for(int i=0; i<playerlist.Count;i++)
             {
-                if (!(playerlist[i].msg == playerlist[i].MsgCheck))
+                if (!(playerlist[i].msg == playerlist[i].MsgCheck) || !(playerlist[i].position ==playerlist[i].poscheck))
                 {
-                    return playerlist[i].id.ToString()+ ":" + playerlist[i].msg;
+                    return playerlist[i].id;
                 }
                 else
                 {
-                    return "NOPRESONSENDMSG";
+                    return 0;
                 }
             }
-            return "NOPRESONSENDMSG";
+            return 0;
         }
 
+        public int CheckWhichState(int id)
+        {
+            if (playerlist[id].position != playerlist[id].poscheck)
+            {
+                playerlist[id].poscheck = playerlist[id].position;
+                return 0;
+            }
+            else
+            {
+                playerlist[id].MsgCheck= playerlist[id].msg;
+                return 1;
+            }
+        }
 
     }
 }
