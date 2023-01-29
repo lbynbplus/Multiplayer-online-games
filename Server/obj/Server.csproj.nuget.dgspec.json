@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git code\\159333project\\server\\Server.csproj": {}
+    "D:\\git code\\159333project\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\git code\\159333project\\server\\Server.csproj": {
+    "D:\\git code\\159333project\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git code\\159333project\\server\\Server.csproj",
+        "projectUniqueName": "D:\\git code\\159333project\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\git code\\159333project\\server\\Server.csproj",
+        "projectPath": "D:\\git code\\159333project\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\git code\\159333project\\server\\obj\\",
+        "outputPath": "D:\\git code\\159333project\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

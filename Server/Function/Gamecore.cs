@@ -13,7 +13,7 @@ namespace Server.Function
 {
     public class Gamecore : WebSocketBehavior
     {
-        List<Player> playerlist= new List<Player>();
+        public List<Player> playerlist= new List<Player>();
         public int[] AssPlayerID = new int[]{1,2,3,4,5,6};
         bool notfinish = false;
 
@@ -31,8 +31,15 @@ namespace Server.Function
                     Console.WriteLine(e.Data);
                     if (e.Data == "hello")
                     {
-                        Send(SendID());
-                        playerlist.Add(new Player() { });
+                        if (Sessions.Count >= 6)
+                        {
+                            Send("The game has started, please wait for the next game to start.");
+                        }
+                        else
+                        {
+                            Send(SendID());
+                            playerlist.Add(new Player() { });
+                        }
                     }
                     else
                     {
@@ -41,6 +48,7 @@ namespace Server.Function
                     }
                     break;
                 case 1:
+                    HowSendMsg(e.Data);
 
                     break; 
                 case 2:
@@ -76,5 +84,52 @@ namespace Server.Function
             }
             return t;
         }
+        
+        public void MsgAnalysis(string msg)
+        {
+
+            string[] words = msg.Split(';');
+            for(int i=0; i< words.Length;i++)
+            {
+                string[] strings= words[i].Split(' ');
+                for(int n=0;n< strings.Length;n++)
+                {
+                    switch(n)
+                    {
+                        case 0:
+                            playerlist[i].id = Convert.ToInt32(strings[n]); break;
+                        case 1:
+                            playerlist[i].position = Convert.ToInt32(strings[n]); break;
+                        case 2:
+                            playerlist[i].CardY = Convert.ToInt32(strings[n]); break;
+                        case 3:
+                            playerlist[i].CardR = Convert.ToInt32(strings[n]); break;
+                        case 4:
+                            playerlist[i].CardB = Convert.ToInt32(strings[n]); break;
+                        case 5:
+                            playerlist[i].msg = Convert.ToString(strings[n]);break;
+                    }
+                }
+            }
+        }
+
+        public String HowSendMsg(string msg)
+        {
+            MsgAnalysis(msg);
+            for(int i=0; i<playerlist.Count;i++)
+            {
+                if (!(playerlist[i].msg == playerlist[i].MsgCheck))
+                {
+                    return playerlist[i].id.ToString()+ ":" + playerlist[i].msg;
+                }
+                else
+                {
+                    return "NOPRESONSENDMSG";
+                }
+            }
+            return "NOPRESONSENDMSG";
+        }
+
+
     }
 }
