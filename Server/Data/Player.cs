@@ -8,8 +8,10 @@ namespace Server.Data
 {
     public class Player
     {
-        public int position { get; set; }
-        public string playername { get; set; }
-        public int playerid { get; set; } = 1;
+        public int position;
+        public int CardY;
+        public int CardR;
+        public int CardB;
+        public string msg = "d";
     }
 }

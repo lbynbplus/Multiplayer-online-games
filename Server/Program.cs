@@ -4,6 +4,8 @@ using System.Text;
 using WebSocketSharp.Server;
 using WebSocketSharp;
 using Server.Function;
+using Server.Data;
+using System.Collections;
 
 namespace Server
 {
@@ -20,7 +22,7 @@ namespace Server
         {
             WebSocketServer Server = new WebSocketServer("ws://127.0.0.1:8205");
             Server.AddWebSocketService<test>("/test");
-            Server.AddWebSocketService<WaitingRoom>("/WaitingRoom");
+            Server.AddWebSocketService<Gamecore>("/Gamecore");
             Server.Start();
             Console.WriteLine("Server Start on :ws://127.0.0.1:8205");
 

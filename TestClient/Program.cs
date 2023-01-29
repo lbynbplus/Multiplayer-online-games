@@ -11,7 +11,7 @@ namespace TestClient
 
         static void Main(String[] args)
         {
-            WebSocket ws = new WebSocket("ws://127.0.0.1:8205/WaitingRoom");
+            WebSocket ws = new WebSocket("ws://127.0.0.1:8205/Gamecore");
             ws.OnMessage += Ws_OnMessage;
 
                 ws.Connect();
