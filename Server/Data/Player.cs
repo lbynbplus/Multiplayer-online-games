@@ -8,13 +8,12 @@ namespace Server.Data
 {
     public class Player
     {
-        public int id = 0; 
-        public int position = 0;
-        public int CardY = 0;
-        public int CardR = 0;
-        public int CardB = 0;
-        public string msg = "d";
-        public string MsgCheck = "d";
-        public int poscheck = 0;
+        public String? Id { get; set; }
+        public String? Name { get; set; }
+        public int ID { get; set; }
+        public int position { get; set; }
+        public int CardY { get; set; }
+        public int CardG { get; set; }
+        public int CardB { get; set; }
     }
 }

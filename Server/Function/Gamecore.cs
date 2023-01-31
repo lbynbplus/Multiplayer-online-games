@@ -8,80 +8,107 @@ using WebSocketSharp;
 using Server;
 using Server.Data;
 using System.Collections;
+using System.Data.SQLite;
 
 namespace Server.Function
 {
     public class Gamecore : WebSocketBehavior
     {
         public List<Player> playerlist= new List<Player>();
-        public int[] AssPlayerID = new int[]{1,2,3,4,5,6};
         bool notfinish = false;
+        public String PPLCheck = "N";
 
-        public String SendID()
+        public int idl()
         {
-            int i = Sessions.Count;
-            Console.WriteLine(Sessions.Count.ToString());
-            return AssPlayerID[--i].ToString();
+            int i = 0;
+            SQLiteDataReader sqlite_datareader;
+            SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+            conn.Open();
+            SQLiteCommand sqlite_cmd;
+            sqlite_cmd = conn.CreateCommand();
+            sqlite_cmd.CommandText = "SELECT * FROM PlayerTable";
+            sqlite_datareader = sqlite_cmd.ExecuteReader();
+            while(sqlite_datareader.Read())
+            {
+                i++;
+            }
+            conn.Close();
+            return i;
         }
-
         protected override void OnOpen()
         {
-            if(Sessions.Count >= 6)
-            {
-                Sessions.Broadcast("$%*&%$");
-                Sessions.Broadcast(CreatData());
-            }
+            Player player= new Player() { ID = idl(), Name = "NULL", Id = ID, CardB = 0, CardG = 0, CardY = 0, position = 0};
+            Program.AddPlayer(player);
+            int iii = idl();
+            Console.WriteLine(iii.ToString());
         }
+
+       
+
         protected override void OnMessage(MessageEventArgs e)
         {
-            switch (CheckNextStep())
+            switch(CheckInfo(e.Data))
             {
+                case -1:
+                    break;
                 case 0:
-                    Console.WriteLine(e.Data);
-                    if (e.Data == "hello")
+                    if(PPLCheck == "FULL")
                     {
-                        if (Sessions.Count >= 6)
-                        {
-                            Send("The game has started, please wait for the next game to start.");
-                        }
-                        else
-                        {
-                            Send(SendID());
-                            playerlist.Add(new Player() { });
-                        }
+                        Send("FULL$");
+                        break;
                     }
-                    else
-                    {
-                        Sessions.Broadcast(e.Data);
-                        Sessions.Broadcast("Now "+Sessions.Count.ToString()+ " players waiting");
-                    }
+                    playerlist[CheckHow(ID)].Name = InfoContect(e.Data);
                     break;
                 case 1:
-                    MsgAnalysis(e.Data);
-                    int tempid = HowSendMsg();
-                    if (tempid!=0)
-                    {
-                        switch (CheckWhichState(tempid))
-                        {
-                            case 0:
-                                Sessions.Broadcast("PPLMOVE$" + tempid.ToString() + "/" + playerlist[tempid].position);
-                                break;
-                            case 1:
-                                Sessions.Broadcast("PPLTALK$" + tempid.ToString() + "/" + playerlist[tempid].msg);
-                                break;
-                        }
-                        break;
-                    }
-                    else
-                    { 
-                        break;
-                    }
-                case 2:
-
+                    Sessions.Broadcast("TALK$" + playerlist[CheckHow(ID)].Name + ": " + InfoContect(e.Data));
+                    Console.WriteLine(CheckHow(ID).ToString() + " " + playerlist[CheckHow(ID)].Name + ": " + InfoContect(e.Data));
                     break;
+                case 2:
+                    PlayerMove(playerlist[CheckHow(ID)], Convert.ToInt32(InfoContect(e.Data)));
+                    Sessions.Broadcast("STATE$" + CreatData());
+                    break;
+
             }
         }
 
+        public int CheckHow(String ID)
+        {
+            return 0;
+        }
+        public int CheckInfo(String msg)
+        {
+            string[] words = msg.Split('$');
+            if (words[0] == "NAME")
+            {
+                return 0;
+            }
+            if (words[0] == "TALK")
+            {
+                return 1;
+            }
+            if((words[0] == "MOVE"))
+            {
+                return 2;
+            }
+                return -1;
+        }
+
+        public String InfoContect(String msg)
+        {
+            string? info = null;
+            string[] words = msg.Split('$');
+            for(int i=1;i<words.Length; i++)
+            {
+                info += words[i]; 
+            }
+            return info;
+        }
+        
+        public void PlayerMove(Player player,int move)
+        {
+            player.position += move;
+        }
+        
         public int CheckNextStep()
         {
             if(Sessions.Count >= 6 && notfinish) { return (int)Program.GameState.GameRoom; } 
@@ -89,28 +116,28 @@ namespace Server.Function
             else { return (int)Program.GameState.WaitingRoom;}
         }
 
-        public string CreatData()
+        
+        
+         public string CreatData()
         {
-            string t = null;
-            for(int i = 0;i< AssPlayerID.Length;i++)
+            string? t = null;
+            for(int i = 0;i< playerlist.Count;i++)
             {
-                t = t + AssPlayerID[i].ToString();
-                t = t + " ";
+                t = t + playerlist[i].Name+ " ";
                 t = t + playerlist[i].position.ToString();
                 t = t + " ";
                 t = t + playerlist[i].CardY.ToString();
                 t = t + " ";
-                t = t + playerlist[i].CardR.ToString();
+                t = t + playerlist[i].CardG.ToString();
                 t = t + " ";
                 t = t + playerlist[i].CardB.ToString();
                 t = t + " ";
-                t = t + playerlist[i].msg;
-                t = t + ";";
             }
             return t;
         }
         
-        public void MsgAnalysis(string msg)
+        /*
+         public void MsgAnalysis(string msg)
         {
 
             string[] words = msg.Split(';');
@@ -137,36 +164,8 @@ namespace Server.Function
                 }
             }
         }
+        */
 
-        public int HowSendMsg()
-        {
-            for(int i=0; i<playerlist.Count;i++)
-            {
-                if (!(playerlist[i].msg == playerlist[i].MsgCheck) || !(playerlist[i].position ==playerlist[i].poscheck))
-                {
-                    return playerlist[i].id;
-                }
-                else
-                {
-                    return 0;
-                }
-            }
-            return 0;
-        }
-
-        public int CheckWhichState(int id)
-        {
-            if (playerlist[id].position != playerlist[id].poscheck)
-            {
-                playerlist[id].poscheck = playerlist[id].position;
-                return 0;
-            }
-            else
-            {
-                playerlist[id].MsgCheck= playerlist[id].msg;
-                return 1;
-            }
-        }
 
     }
 }

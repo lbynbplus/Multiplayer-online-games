@@ -32,3 +32,29 @@ C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Serve
 C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.pdb
 C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
 C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\ref\Server.dll
+D:\git code\159333project\server\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\git code\159333project\server\bin\Debug\net6.0\EntityFramework.dll
+D:\git code\159333project\server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Data.SQLite.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.CodeDom.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Data.SQLite.EF6.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\git code\159333project\server\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x64\native\SQLite.Interop.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x86\native\SQLite.Interop.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
