@@ -15,7 +15,7 @@ namespace Server
     class Program
     {
         public static string dbfile = "Data Source= database.db; Version = 3; New = True; Compress = True; ";
-        static SQLiteConnection CreateConnection()
+        public static SQLiteConnection CreateConnection()
         {
 
             SQLiteConnection sqlite_conn;

@@ -5,10 +5,11 @@ namespace TestClient
 {
     class Program
     {
+        static WebSocket ws = new WebSocket("ws://127.0.0.1:8205/Gamecore");
         static string temp = "Anonymous";
         static void Main(String[] args)
         {
-            WebSocket ws = new WebSocket("ws://127.0.0.1:8205/Gamecore");
+            //WebSocket ws = new WebSocket("ws://127.0.0.1:8205/Gamecore");
             ws.OnMessage += Ws_OnMessage;
 
             ws.Connect();
@@ -41,6 +42,9 @@ namespace TestClient
                 case 2:
                     Console.WriteLine("The server is full of connected players and you can only go into watch mode.");
                     break;
+                case 3:
+                    ws.Send("STARTG$");
+                    break;
             }
         }
 
@@ -58,6 +62,10 @@ namespace TestClient
             if(words[0] == "FULL")
             {
                 return 2;
+            }
+            if (words[0] == "GAMESTART")
+            {
+                return 3;
             }
             return -1;
 

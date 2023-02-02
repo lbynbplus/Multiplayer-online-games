@@ -9,14 +9,18 @@ using Server;
 using Server.Data;
 using System.Collections;
 using System.Data.SQLite;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
+using System.Xml.Linq;
 
 namespace Server.Function
 {
     public class Gamecore : WebSocketBehavior
     {
         public List<Player> playerlist= new List<Player>();
-        bool notfinish = false;
-        public String PPLCheck = "N";
+        bool gamestart = false;
+        int PlayerCount = 0;
+        int playernow = 0;
+        bool AlreadyStart = false;
 
         public int idl()
         {
@@ -37,13 +41,131 @@ namespace Server.Function
         }
         protected override void OnOpen()
         {
-            Player player= new Player() { ID = idl(), Name = "NULL", Id = ID, CardB = 0, CardG = 0, CardY = 0, position = 0};
-            Program.AddPlayer(player);
-            int iii = idl();
-            Console.WriteLine(iii.ToString());
+            PlayerCount = idl();
+            if (PlayerCount != --Program.PLAYERNUM)
+            {
+                playerlist.Add(new Player() { ID = idl(), Name = "NULL", Id = ID, CardB = 0, CardG = 0, CardY = 0, position = 0 });
+                Player player = new Player() { ID = idl(), Name = "NULL", Id = ID, CardB = 0, CardG = 0, CardY = 0, position = 0 };
+                Program.AddPlayer(player);
+                Console.WriteLine(PlayerCount.ToString());
+                if(idl() == --Program.PLAYERNUM)
+                {
+                    gamestart = true;
+                }
+            }
+            else
+            {
+                gamestart = true;
+                return;
+            }
         }
 
-       
+        int CheckExist()
+        {
+            SQLiteDataReader sqlite_datareader;
+            SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+            conn.Open();
+            SQLiteCommand sqlite_cmd;
+            sqlite_cmd = conn.CreateCommand();
+            sqlite_cmd.CommandText = "SELECT * FROM PlayerTable";
+            sqlite_datareader = sqlite_cmd.ExecuteReader();
+            while (sqlite_datareader.Read())
+            {
+                if(ID == sqlite_datareader.GetString(2))
+                {
+                    return sqlite_datareader.GetInt32(0);
+                }
+            }
+            conn.Close();
+            return -1;
+        }
+
+        
+       bool Change(String col,int num)
+        {
+            try
+            {
+                SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+                conn.Open();
+                string cmdcode = "UPDATE PlayerTable" + " SET "+ col +" = " + num + " where ID='" + PlayerCount + "'";
+                SQLiteCommand command = new SQLiteCommand(cmdcode, conn);
+                command.ExecuteNonQuery();
+                conn.Close();
+                return false;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        bool ChangeName(String Name)
+        {
+            try
+            {
+                SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+                conn.Open();
+                string cmdcode = "UPDATE PlayerTable" + " SET Name = " + Name + " where ID='" + PlayerCount + "'";
+                SQLiteCommand command = new SQLiteCommand(cmdcode, conn);
+                command.ExecuteNonQuery();
+                conn.Close();
+                return false;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public void Start()
+        {
+            Console.WriteLine("Game Start");
+            Sessions.Broadcast("GAMESTART$");
+            SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+            conn.Open();
+            Random rd = new Random();
+            for (int i=0;i<PlayerCount;i++)
+            {
+                string cmdcode = "UPDATE PlayerTable" + " SET position = " + rd.Next(1,62) + " where ID='" + i + "'";
+                SQLiteCommand command = new SQLiteCommand(cmdcode, conn);
+                command.ExecuteNonQuery();
+            }
+            conn.Close();
+            Sessions.Broadcast(CreatData());
+            Sessions.SendTo("YOUROUND$0", findppl(0));
+            AlreadyStart= true;
+        }
+
+        public string findppl(int now)
+        {
+            int temp = 0;
+            SQLiteDataReader sqlite_datareader;
+            SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+            conn.Open();
+            SQLiteCommand sqlite_cmd;
+            sqlite_cmd = conn.CreateCommand();
+            sqlite_cmd.CommandText = "SELECT SessionsID FROM PlayerTable";
+            sqlite_datareader = sqlite_cmd.ExecuteReader();
+            while (sqlite_datareader.Read())
+            {
+                if (temp == now)
+                {
+                    return sqlite_datareader.GetString(2);
+                }
+                temp++;
+            }
+            conn.Close();
+            return null;
+        }
+        public void playerloop(int now)
+        {
+            now++;
+            if (now == 7)
+            {
+                now = 0;
+            }
+            Sessions.SendTo("YOUROUND$", findppl(now));
+        }
 
         protected override void OnMessage(MessageEventArgs e)
         {
@@ -52,29 +174,52 @@ namespace Server.Function
                 case -1:
                     break;
                 case 0:
-                    if(PPLCheck == "FULL")
+                    if(CheckExist() != -1)
+                    {
+                        playerlist[0].Name = InfoContect(e.Data);
+                        Console.WriteLine("exist" + CheckExist().ToString());
+                        ChangeName(InfoContect(e.Data));
+                    }
+                    else
                     {
                         Send("FULL$");
-                        break;
+                        if(AlreadyStart == false)
+                        {
+                            Start();
+                        }
                     }
-                    playerlist[CheckHow(ID)].Name = InfoContect(e.Data);
                     break;
                 case 1:
-                    Sessions.Broadcast("TALK$" + playerlist[CheckHow(ID)].Name + ": " + InfoContect(e.Data));
-                    Console.WriteLine(CheckHow(ID).ToString() + " " + playerlist[CheckHow(ID)].Name + ": " + InfoContect(e.Data));
+                    Sessions.Broadcast("TALK$" + playerlist[0].Name + ": " + InfoContect(e.Data));
+                    Console.WriteLine(playerlist[0].Name + ": " + InfoContect(e.Data));
+                    if(idl() == Program.PLAYERNUM)
+                    {
+                        if(AlreadyStart == false)
+                        {
+                            Start();
+                        }
+                    }
                     break;
                 case 2:
-                    PlayerMove(playerlist[CheckHow(ID)], Convert.ToInt32(InfoContect(e.Data)));
+                    Change("position", Convert.ToInt32(InfoContect(e.Data)));
                     Sessions.Broadcast("STATE$" + CreatData());
+                    break;
+                case 3:
+                    if (idl() == Program.PLAYERNUM)
+                    {
+                        if (AlreadyStart == false)
+                        {
+                            Start();
+                        }
+                    }
+                    break;
+                case 4:
+                    AlreadyStart = false;
                     break;
 
             }
         }
 
-        public int CheckHow(String ID)
-        {
-            return 0;
-        }
         public int CheckInfo(String msg)
         {
             string[] words = msg.Split('$');
@@ -86,11 +231,19 @@ namespace Server.Function
             {
                 return 1;
             }
-            if((words[0] == "MOVE"))
+            if(words[0] == "MOVE")
             {
                 return 2;
             }
-                return -1;
+            if(words[0] == "REFRESH")
+            {
+                return 3;
+            }
+            if (words[0] == "STARTG")
+            {
+                return 4;
+            }
+            return -1;
         }
 
         public String InfoContect(String msg)
@@ -103,35 +256,28 @@ namespace Server.Function
             }
             return info;
         }
-        
-        public void PlayerMove(Player player,int move)
-        {
-            player.position += move;
-        }
-        
-        public int CheckNextStep()
-        {
-            if(Sessions.Count >= 6 && notfinish) { return (int)Program.GameState.GameRoom; } 
-            if(Sessions.Count >= 6 && notfinish == false) { return (int)Program.GameState.SettlementRoom;}
-            else { return (int)Program.GameState.WaitingRoom;}
-        }
 
-        
-        
          public string CreatData()
         {
             string? t = null;
-            for(int i = 0;i< playerlist.Count;i++)
+            SQLiteDataReader sqlite_datareader;
+            SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+            conn.Open();
+            SQLiteCommand sqlite_cmd;
+            sqlite_cmd = conn.CreateCommand();
+            sqlite_cmd.CommandText = "SELECT * FROM PlayerTable";
+            sqlite_datareader = sqlite_cmd.ExecuteReader();
+            while(sqlite_datareader.Read()) 
             {
-                t = t + playerlist[i].Name+ " ";
-                t = t + playerlist[i].position.ToString();
+                t = t + sqlite_datareader.GetString(1) + " ";
+                t = t + sqlite_datareader.GetString(7).ToString();
                 t = t + " ";
-                t = t + playerlist[i].CardY.ToString();
+                t = t + sqlite_datareader.GetInt32(4).ToString();
                 t = t + " ";
-                t = t + playerlist[i].CardG.ToString();
+                t = t + sqlite_datareader.GetInt32(4).ToString();
                 t = t + " ";
-                t = t + playerlist[i].CardB.ToString();
-                t = t + " ";
+                t = t + sqlite_datareader.GetInt32(4).ToString();
+                t = t + ":";
             }
             return t;
         }
