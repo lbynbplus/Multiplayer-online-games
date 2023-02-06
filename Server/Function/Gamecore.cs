@@ -202,6 +202,14 @@ namespace Server.Function
             Sessions.Broadcast("STATE$" + CreatData());
             if (CheckFinish())
             {
+                try
+                {
+                    System.IO.File.Delete("/Server/bin/Debug/net6.0/database.db");
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Failed to delete, please delete bin/net6.0/database.db file manually");
+                }
                 Sessions.Broadcast("GameFinish$");
                 return;
             }
@@ -210,7 +218,33 @@ namespace Server.Function
 
         public bool CheckFinish()
         {
-            return false;
+            SQLiteDataReader sqlite_datareader;
+            SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
+            conn.Open();
+            SQLiteCommand sqlite_cmd;
+            sqlite_cmd = conn.CreateCommand();
+            sqlite_cmd.CommandText = "SELECT * FROM PlayerTable";
+            sqlite_datareader = sqlite_cmd.ExecuteReader();
+            while (sqlite_datareader.Read())
+            {
+                if (sqlite_datareader.GetInt32(4) == 0)
+                {
+                    conn.Close();
+                    return false;
+                }
+                if (sqlite_datareader.GetInt32(5) == 0)
+                {
+                    conn.Close();
+                    return false;
+                }
+                if (sqlite_datareader.GetInt32(6) == 0)
+                {
+                    conn.Close();
+                    return false;
+                }
+            }
+            conn.Close();
+            return true;
         }
         protected override void OnMessage(MessageEventArgs e)
         {
