@@ -124,7 +124,7 @@ namespace Server.Function
             SQLiteConnection conn = new SQLiteConnection(Program.dbfile);
             conn.Open();
             Random rd = new Random();
-            for (int i=0;i<PlayerCount;i++)
+            for (int i=0;i<idl();i++)
             {
                 string cmdcode = "UPDATE PlayerTable" + " SET position = " + rd.Next(1,62) + " where ID='" + i + "'";
                 SQLiteCommand command = new SQLiteCommand(cmdcode, conn);
@@ -164,9 +164,54 @@ namespace Server.Function
             {
                 now = 0;
             }
-            Sessions.SendTo("YOUROUND$", findppl(now));
+            Sessions.SendTo("YOUROUND$" + now, findppl(now));
+        }
+        public void CardB()
+        {
+            Send("CardB$");
         }
 
+        public void CardG()
+        {
+            Send("CardG$");
+        }
+
+        public void CardY()
+        {
+            Send("CardY$");
+        }
+        public void pplinmap(int pos,int now)
+        {
+            int card = 0;
+            //带入地图类先返回这个位置有没有特殊移动再返回移动后的位置什么卡片(记得保存到数据库）
+            Change("position", pos);
+            switch (card)
+            {
+                case 0:
+                    break;
+                case 1:
+                    CardB();
+                    break;
+                case 2:
+                    CardG();
+                    break;
+                case 3:
+                    CardY();
+                    break;
+            }
+            Sessions.Broadcast("STATE$" + CreatData());
+            if (CheckFinish())
+            {
+                Sessions.Broadcast("GameFinish$");
+                return;
+            }
+            playerloop(now);
+        }
+
+        public bool CheckFinish()
+        {
+            return false;
+        }
         protected override void OnMessage(MessageEventArgs e)
         {
             switch(CheckInfo(e.Data))
@@ -201,7 +246,7 @@ namespace Server.Function
                     }
                     break;
                 case 2:
-                    Change("position", Convert.ToInt32(InfoContect(e.Data)));
+                    pplinmap(Convert.ToInt32(InfoContect(e.Data)), PlayerCount);
                     Sessions.Broadcast("STATE$" + CreatData());
                     break;
                 case 3:
@@ -216,7 +261,9 @@ namespace Server.Function
                 case 4:
                     AlreadyStart = false;
                     break;
+                case 5:
 
+                    break;
             }
         }
 
@@ -243,7 +290,11 @@ namespace Server.Function
             {
                 return 4;
             }
-            return -1;
+            if (words[0] == "YOUROUND")
+            {
+                return 5;
+            }
+                return -1;
         }
 
         public String InfoContect(String msg)
