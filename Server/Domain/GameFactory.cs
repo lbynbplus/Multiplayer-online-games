@@ -1,24 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Server.Domain
+﻿namespace Server.Domain
 {
     public class GameFactory : IGameFactory
     {
         ILadder _ladder;
         ISnake _snake;
-        public GameFactory(ILadder ladder,ISnake snake)
+        ICard _card;
+        public GameFactory(ILadder ladder, ISnake snake, ICard card)
         {
             _ladder = ladder;
             _snake = snake;
+            _card = card;
         }
 
         public int ApplyLadder(int postion)
         {
             return (_ladder.GetPosition(postion));
+        }
+
+        public CardColor GetCardColor(int postion)
+        {
+            return _card.GetCardColor(postion);
         }
 
         public int SnakeBite(int postion)

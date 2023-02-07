@@ -40,21 +40,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "System.Data.SQLite": {
+            "LiteDB": {
               "target": "Package",
-              "version": "[1.0.117, )"
+              "version": "[5.0.15, )"
             },
-            "System.Net.WebSockets": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "WebSocketSharp-NonPreRelease": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "protobuf-v120": {
-              "target": "Package",
-              "version": "[2.6.1, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -69,6 +61,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

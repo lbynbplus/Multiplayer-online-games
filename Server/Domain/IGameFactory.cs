@@ -12,5 +12,6 @@ namespace Server.Domain
 
         public int SnakeBite(int postion);
 
+        public CardColor GetCardColor(int postion);
     }
 }

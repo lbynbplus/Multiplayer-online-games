@@ -1,60 +1,99 @@
-D:\git code\159333project\Server\bin\Debug\net6.0\Server.exe
-D:\git code\159333project\Server\bin\Debug\net6.0\Server.deps.json
-D:\git code\159333project\Server\bin\Debug\net6.0\Server.runtimeconfig.json
-D:\git code\159333project\Server\bin\Debug\net6.0\Server.dll
-D:\git code\159333project\Server\bin\Debug\net6.0\Server.pdb
-D:\git code\159333project\Server\bin\Debug\net6.0\websocket-sharp.dll
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.AssemblyInfo.cs
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.csproj.CopyComplete
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.dll
-D:\git code\159333project\Server\obj\Debug\net6.0\refint\Server.dll
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.pdb
-D:\git code\159333project\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
-D:\git code\159333project\Server\obj\Debug\net6.0\ref\Server.dll
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.exe
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.deps.json
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.runtimeconfig.json
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.dll
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\Server.pdb
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\bin\Debug\net6.0\websocket-sharp.dll
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.AssemblyInfo.cs
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.csproj.CopyComplete
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.dll
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\refint\Server.dll
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.pdb
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
-C:\Users\Rusira\Desktop\159333 Project\159333 Project GitHub\159333project\Server\obj\Debug\net6.0\ref\Server.dll
-D:\git code\159333project\server\bin\Debug\net6.0\EntityFramework.SqlServer.dll
-D:\git code\159333project\server\bin\Debug\net6.0\EntityFramework.dll
-D:\git code\159333project\server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Data.SQLite.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.CodeDom.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Data.SqlClient.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Data.SQLite.EF6.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\git code\159333project\server\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\linux-x64\native\SQLite.Interop.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\osx-x64\native\SQLite.Interop.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x64\native\SQLite.Interop.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win-x86\native\SQLite.Interop.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\git code\159333project\server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\appsettings.json
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.exe
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.deps.json
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.runtimeconfig.json
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.pdb
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\LiteDB.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.AssemblyInfo.cs
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.build.Server.props
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Server.props
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\scopedcss\bundle\Server.styles.css
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.csproj.CopyComplete
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\refint\Server.dll
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.pdb
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
+C:\Users\gil\Music\local\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\ref\Server.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.exe
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.deps.json
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.runtimeconfig.json
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Server.pdb
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\LiteDB.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.build.Server.props
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Server.props
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\scopedcss\bundle\Server.styles.css
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.csproj.CopyComplete
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\refint\Server.dll
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.pdb
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\SnakesAndLaddersSignalR\Server\obj\Debug\net6.0\ref\Server.dll
+D:\git code\159333project\server\bin\Debug\net6.0\appsettings.Development.json
+D:\git code\159333project\server\bin\Debug\net6.0\appsettings.json
+D:\git code\159333project\server\bin\Debug\net6.0\Server.exe
+D:\git code\159333project\server\bin\Debug\net6.0\Server.deps.json
+D:\git code\159333project\server\bin\Debug\net6.0\Server.runtimeconfig.json
+D:\git code\159333project\server\bin\Debug\net6.0\Server.dll
+D:\git code\159333project\server\bin\Debug\net6.0\Server.pdb
+D:\git code\159333project\server\bin\Debug\net6.0\LiteDB.dll
+D:\git code\159333project\server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\git code\159333project\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\git code\159333project\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\git code\159333project\server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\git code\159333project\server\obj\Debug\net6.0\Server.csproj.AssemblyReference.cache
+D:\git code\159333project\server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\git code\159333project\server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
+D:\git code\159333project\server\obj\Debug\net6.0\Server.AssemblyInfo.cs
+D:\git code\159333project\server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
+D:\git code\159333project\server\obj\Debug\net6.0\Server.MvcApplicationPartsAssemblyInfo.cs
+D:\git code\159333project\server\obj\Debug\net6.0\Server.MvcApplicationPartsAssemblyInfo.cache
+D:\git code\159333project\server\obj\Debug\net6.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+D:\git code\159333project\server\obj\Debug\net6.0\staticwebassets\msbuild.build.Server.props
+D:\git code\159333project\server\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+D:\git code\159333project\server\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Server.props
+D:\git code\159333project\server\obj\Debug\net6.0\staticwebassets.pack.json
+D:\git code\159333project\server\obj\Debug\net6.0\staticwebassets.build.json
+D:\git code\159333project\server\obj\Debug\net6.0\staticwebassets.development.json
+D:\git code\159333project\server\obj\Debug\net6.0\scopedcss\bundle\Server.styles.css
+D:\git code\159333project\server\obj\Debug\net6.0\Server.csproj.CopyComplete
+D:\git code\159333project\server\obj\Debug\net6.0\Server.dll
+D:\git code\159333project\server\obj\Debug\net6.0\refint\Server.dll
+D:\git code\159333project\server\obj\Debug\net6.0\Server.pdb
+D:\git code\159333project\server\obj\Debug\net6.0\Server.genruntimeconfig.cache
+D:\git code\159333project\server\obj\Debug\net6.0\ref\Server.dll

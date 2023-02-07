@@ -43,6 +43,11 @@ namespace Server.Domain
             }
     };
 
+        /// <summary>
+        /// 根据蛇获取新坐标
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
         public int GetPosition(int position)
         {
             var snakeBite = _snakeBites.SingleOrDefault(x => x.Start == position);

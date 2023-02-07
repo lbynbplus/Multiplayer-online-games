@@ -1,8 +1,4 @@
 ﻿using Server.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Server.Services
 {
@@ -12,20 +8,20 @@ namespace Server.Services
         IGameFactory _gameFactory;
         private bool _isWon = false;
         private int _position = 0;
-        private static List<int> _positionHistory = new List<int>();
+        private static Dictionary<string, List<int>> _positionHistory = new Dictionary<string, List<int>>();
 
-        public GameService(IDiceRoller diceRoller,IGameFactory gameFactory)
+        public GameService(IDiceRoller diceRoller, IGameFactory gameFactory)
         {
             _diceRoller = diceRoller;
             _gameFactory = gameFactory;
         }
 
-        public GameMatrix Move(int diceValue)
+        public GameMatrix Move(string userName, int diceValue)
         {
-            if (_positionHistory.Sum() <= 100) 
+            if (_positionHistory.GetValueOrDefault(userName)?.Sum() <= 100)
             {
-                _positionHistory.Add(diceValue);
-                _position = _positionHistory.Sum();
+                _positionHistory.GetValueOrDefault(userName)?.Add(diceValue);
+                _position = _positionHistory.GetValueOrDefault(userName)!.Sum();
             }
 
             _isWon = (_position >= 100);
@@ -37,25 +33,29 @@ namespace Server.Services
                 DiceValue = diceValue
             };
 
-            var newPositionWithLadder=_gameFactory.ApplyLadder(_position);
-            
+            var newPositionWithLadder = _gameFactory.ApplyLadder(_position);
+
             if (newPositionWithLadder != _position)
             {
                 gameMatrix.Position = newPositionWithLadder;
-                _positionHistory = new List<int>();
-                _positionHistory.Add(newPositionWithLadder);
+                _positionHistory = new Dictionary<string, List<int>>();
+                _positionHistory.GetValueOrDefault(userName)?.Add(newPositionWithLadder);
                 gameMatrix.IsLadder = true;
                 return gameMatrix;
             }
 
             var snakeBite = _gameFactory.SnakeBite(_position);
-            if(snakeBite != _position)
+            if (snakeBite != _position)
             {
                 gameMatrix.Position = snakeBite;
-                _positionHistory = new List<int>();
-                _positionHistory.Add(snakeBite);
+                _positionHistory = new Dictionary<string, List<int>>();
+                _positionHistory.GetValueOrDefault(userName)?.Add(snakeBite);
                 gameMatrix.IsSnakeBite = true;
             }
+
+            var cardColor = _gameFactory.GetCardColor(_position);
+
+            gameMatrix.CardColor = cardColor;
 
             return gameMatrix;
         }
@@ -63,11 +63,12 @@ namespace Server.Services
         public void ResetGame()
         {
             _position = 0;
-            _positionHistory = new List<int>();
+            _positionHistory = new Dictionary<string, List<int>>();
         }
-        public GameMatrix RollDice()
+        public GameMatrix RollDice(string userName)
         {
-            return Move(_diceRoller.RollDice());
+            _ = _positionHistory.TryAdd(userName, new List<int>());
+            return Move(userName, _diceRoller.RollDice());
         }
     }
 }

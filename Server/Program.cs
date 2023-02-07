@@ -1,98 +1,56 @@
-锘縰sing System;
-using System.Net;
-using System.Text;
-using WebSocketSharp.Server;
-using WebSocketSharp;
-using Server.Function;
-using Server.Data;
-using System.Collections;
-using System.Data.SQLite;
-using System.Data.Entity;
-using System.Data;
+using Server.Domain;
+using Server.Hubs;
+using Server.Services;
 
-namespace Server
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddSignalR();
+//添加自定义服务
+builder.Services.AddSingleton<IPlayerService, PlayerService>();
+builder.Services.AddTransient<ILadder, Ladder>();
+builder.Services.AddTransient<ISnake, Snake>();
+builder.Services.AddTransient<ICard, Card>();
+builder.Services.AddTransient<IDiceRoller, DiceRoller>();
+builder.Services.AddTransient<IGameFactory, GameFactory>();
+builder.Services.AddTransient<IGameService, GameService>();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    class Program
-    {
-        public static string dbfile = "Data Source= database.db; Version = 3; New = True; Compress = True; ";
-        public static SQLiteConnection CreateConnection()
-        {
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-            SQLiteConnection sqlite_conn;
-            // Create a new database connection:
-            sqlite_conn = new SQLiteConnection("Data Source= database.db; Version = 3; New = True; Compress = True; ");
-            // Open the connection:
-            try
-            {
-                sqlite_conn.Open();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            return sqlite_conn;
-        }
-        static void CreateTable(SQLiteConnection conn)
-        {
-            SQLiteCommand sqliteCmd = conn.CreateCommand();
-            sqliteCmd.CommandText = "CREATE TABLE IF NOT EXISTS PlayerTable (ID INT Primary Key, Name text, SessionsID text, CardY INT, CardG INT, CardB INT, position INT)";
-            sqliteCmd.ExecuteNonQuery();
-            conn.Close();
-        }
+app.MapHub<ChatHub>("/ChatHub");
 
-        public static void AddPlayer(Player player)
-        {
-            SQLiteConnection conn = new SQLiteConnection(dbfile);
-            conn.Open();
-            SQLiteCommand sqlite_cmd;
-            sqlite_cmd = conn.CreateCommand();
-            sqlite_cmd.CommandText = $"INSERT INTO PlayerTable(ID, Name, SessionsID, CardY, CardG, CardB, position) VALUES(" +
-                $"{player.ID}, '{player.Name}', '{player.Id}', {player.CardY}, {player.CardG}, {player.CardB}, {player.position})";
-            sqlite_cmd.ExecuteNonQuery();
-            conn.Close();
-        }
+var summaries = new[]
+{
+    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+};
 
-        public static int PLAYERNUM;
-        public enum GameState
-        {
-            WaitingRoom,
-            GameRoom,
-            SettlementRoom
+app.MapGet("/weatherforecast", () =>
+{
+    var forecast = Enumerable.Range(1, 5).Select(index =>
+        new WeatherForecast
+        (
+            DateTime.Now.AddDays(index),
+            Random.Shared.Next(-20, 55),
+            summaries[Random.Shared.Next(summaries.Length)]
+        ))
+        .ToArray();
+    return forecast;
+})
+.WithName("GetWeatherForecast");
 
-        }
-        static void Putplayer()
-        {
-            SQLiteConnection conn = CreateConnection();
-            CreateTable(conn);
-            Console.WriteLine("Please enter the number of players the game server can accept this time (the number is limited to 0 to 10 people)");
-            while (true) 
-            {
-                string? temp = Console.ReadLine();
-                int i = Convert.ToInt32(temp);
-                if (0 < i)
-                {
-                    if (i < 10)
-                    {
-                        PLAYERNUM = i;
-                        Console.WriteLine("Great, the total number of players for this game will be " + PLAYERNUM);
-                        break;
-                    }
-                }
-                Console.WriteLine("You have entered an invalid number of people.");
-                Console.WriteLine("Please enter the number of people from a new entry.");
-            }
-        }
-        static void Main(string[] args)
-        {
-            Putplayer();
-            WebSocketServer Server = new WebSocketServer("ws://127.0.0.1:8205");
-            Server.AddWebSocketService<Gamecore>("/Gamecore");
-            Server.Start();
-            Console.WriteLine("Server Start on :ws://127.0.0.1:8205");
+app.Run();
 
-            Console.ReadKey();
-            Server.Stop();
-
-        }
-    }
+internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
+{
+    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
