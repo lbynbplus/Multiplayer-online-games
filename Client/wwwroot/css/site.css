@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 html {
   font-size: 14px;
 }
@@ -8,11 +15,161 @@ html {
   }
 }
 
-html {
+/*html {
   position: relative;
   min-height: 100%;
-}
+}*/
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: #1f1a25;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-15%, 0);
+    top: 5%;
+    left: 15%;
+    width: 90vh;
+    height: 90vh;
+    z-index: 1;
+}
+
+.board {
+    position: absolute;
+    transform: translate(-20%, 0);
+    top: 1%;
+    left: 15%;
+    height: 90vh;
+    width: 100vh;
+    background-image: url("/images/board.png");
+    background-size: contain;
+    z-index: -1;
+}
+
+.game-title {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gaming-section {
+    top: 700%;
+}
+
+
+.dice {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+.dice img {
+    width: 60%;
+    height: auto;
+    margin-left: 230%;
+}
+
+.draw-border {
+    box-shadow: inset 0 0 0 4px #58afd1;
+    color: #58afd1;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+
+.draw-border::before,
+.draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+.draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+.draw-border:hover {
+    color: #ffe593;
+}
+
+.draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.draw-border:hover {
+    color: #ffe593;
+}
+
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 1em 2em;
+    margin-left: 250%;
+    font: 700 1.2rem 'Poppins', sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+.draw-border:hover::before,
+.draw-border:hover::after {
+    border-color: #ffe593;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+}
+
+.btn:focus {
+   outline: 2px dotted #55d7dc;
+}
+
+#roll-button {
+    position: absolute;
+    left: 80%;
+    bottom: 16%;
+}
+
+.game-cards img{
+    right:10%;
+}
+
+.card-img {
+    font-size: 1.3rem;
+    padding: 1.5px 2px;
+    top: 100%;
+    right: 19%;
+    margin-left: 78rem;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 35%;
+    display: block;
+    transition: all 0.5s;
 }

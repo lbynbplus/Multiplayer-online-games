@@ -1,21 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jR4JSd/ikiWeJDbN0qZz1kwywp7vfvhoZAauxcZoYA8RHS/+HmidZ0GTsnBXYK3fYdDt9TYX7IvK+NX45kQM8A==",
+  "dgSpecHash": "cZexHN93BayiU+A6F0kUMTbKpUHCYiVM2HEnfGwfIF0m+gCLHtDTZ1yquIOgDSE5k4+CZuLS9ACgBd1bIFmhOA==",
   "success": true,
-  "projectFilePath": "D:\\git code\\159333project\\Client\\Client.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\websocketsharp-nonprerelease\\1.0.0\\websocketsharp-nonprerelease.1.0.0.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0”还原包“WebSocketSharp-NonPreRelease 1.0.0”。此包可能与项目不完全兼容。",
-      "libraryId": "WebSocketSharp-NonPreRelease",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "projectFilePath": "C:\\Users\\Rusira\\Desktop\\159333 Project\\159333 Project GitHub\\New Version\\159333project\\Client\\Client.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
 }

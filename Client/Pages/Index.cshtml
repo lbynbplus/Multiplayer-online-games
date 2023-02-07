@@ -1,10 +1,38 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Snakes and Ladders";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@*<div class="text-center">
+    <h1 class="game-title">snakes and ladders</h1>
+</div>*@
+
+<div class="gaming-section">
+    <div class="board"></div>
+
+    @*<div class="container">
+        <canvas id="canvas"></canvas>
+    </div>*@
+
+    <div class="game-cards">
+        <img src="images/card1.png" alt="card1" class="card card-img">
+        <img src="images/card2.png" alt="card1" class="card card-img">
+        <img src="images/card3.png" alt="card1" class="card card-img">
+    </div>
+
+    <!-- svg tokens -->
+    @*<div class="tokens">
+        <p style="color:#fff">Tokens</p>
+        <circle cx="50" cy="50" r="20" stroke="white" fill="yellow" />
+        <circle cx="50" cy="50" r="20" stroke="white" fill="yellow" />
+    </div>*@
+
+    <div class="dice">
+        <div id="dice-img">
+            <img src="./images/dice/dice1.png" alt="" />
+        </div>
+        <button class="btn draw-border" id="roll-button" onclick="diesRoll()">Roll</button>
+    </div>
+        
 </div>
