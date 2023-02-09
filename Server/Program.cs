@@ -1,5 +1,6 @@
 using Server.Domain;
 using Server.Hubs;
+using Server.Models;
 using Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +18,7 @@ builder.Services.AddTransient<ICard, Card>();
 builder.Services.AddTransient<IDiceRoller, DiceRoller>();
 builder.Services.AddTransient<IGameFactory, GameFactory>();
 builder.Services.AddTransient<IGameService, GameService>();
-
+builder.Services.Configure<GameConfig>(builder.Configuration.GetSection("GameConfig"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

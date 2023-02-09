@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git code\\159333project\\server\\Server.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\SnakesAndLaddersSignalR-master\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\git code\\159333project\\server\\Server.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\SnakesAndLaddersSignalR-master\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git code\\159333project\\server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\SnakesAndLaddersSignalR-master\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\git code\\159333project\\server\\Server.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\SnakesAndLaddersSignalR-master\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\git code\\159333project\\server\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\SnakesAndLaddersSignalR-master\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,6 +11,8 @@ namespace Server.Models
         public int CardY { get; set; }
         public int CardG { get; set; }
         public int CardB { get; set; }
+        public string ConnectionId { get; set; } = string.Empty;
+        public bool IsOffLine { get; set; }
         public GameMatrix GameMatrix { get; set; } = new GameMatrix();
     }
 }
