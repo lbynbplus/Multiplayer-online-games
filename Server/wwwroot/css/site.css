@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
-    margin: 0;
-    padding: 0;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
@@ -19,8 +23,6 @@ body {
     margin: 0;
     background: linear-gradient(to right, #4B6CB7, #182848);
 }
-
-
 button {
     border: 1px solid #000;
     font-size: 20px;
@@ -28,33 +30,33 @@ button {
     cursor: pointer;
     padding: 10px;
     border-radius: 12px;
-    color:#000;
+    color: #000;
     transition: 1s;
 }
 
-button:hover{
-    opacity: 0.6;
-    transform:scale(1.1);
-}
+    button:hover {
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    width:100%;
+    width: 100%;
 }
 
 .button-container {
     display: flex;
-    transform:translate(20vh, 0);
+    transform: translate(20vh, 0);
 }
 
-    .button-container button {
+.button-container button {
         margin-right: 10px;
-    }
+ }
 
-.start-btn{
+.start-btn {
     padding-right: 12px;
 }
 
@@ -63,10 +65,10 @@ button:hover{
     font-weight: 800;
 }
 
+
 .gaming-section{
     display:flex;
     flex:1;
-    margin-bottom: 100px;
 }
 
 .board {
@@ -95,8 +97,7 @@ button:hover{
 }
 
 .board, .players-section, .game-controls{
-    padding: 1em;
-    padding-left: 3em;
+    padding: 3em;
 }
 
 .board{
@@ -115,6 +116,7 @@ button:hover{
     box-shadow: 5px 10px 18px #888888;
     border: none;
 }
+
 
 .game-cards{
     height: 12vh;
@@ -143,7 +145,6 @@ button:hover{
 
 .chat-section {
     transform: translate(-10%, -18%);
-    
 }
 
 .message-box{
@@ -152,11 +153,10 @@ button:hover{
 
 .chat-messages {
     background-color: #0b2d39;
-    color: #fff;
+    color:#fff;
     border-radius: 10px;
     padding: 12px;
     height: 30vh;
-    box-shadow: 5px 10px 18px #888888;
 }
 
 .input-box input {
@@ -171,18 +171,20 @@ button:hover{
 }
 
 
-.button {
-    background-color: #4498d4;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+.rollBtn {
+    background: lightblue;
+    line-height: 1.5;
+    padding: 1em 2em;
     margin-top: 10%;
-    transform: translate(250%, -10%);
+    transform:translate(250%, -10%);
+    font: 700 1.2rem 'poppins', sans-serif;
+    letter-spacing: 0.05rem;
+    cursor:pointer;
+}
+
+
+btn:hover {
+    opacity: 0.6
 }
 
 .dice img{
@@ -195,17 +197,16 @@ button:hover{
 
 .player {
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 40px;   
 }
-.token-list {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    text-align: center;
-    margin: 10px;
-}
 
+.container-1, .container-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 10vh;
+}
+   
 circle{
     cursor: pointer;
     transition: 1s;
@@ -215,7 +216,6 @@ circle:hover{
     transform:scale(1.1);
 }
 
-.addPlayers-btn{
-    font-size:12px;
-    font-weight:bolder;
+.col-form-label{
+    color:black;
 }
