@@ -32,5 +32,6 @@ namespace Server.Models
             get; set;
         }
         public GameMatrix GameMatrix { get; set; } = new GameMatrix();
+        public bool RoomOwner = false;
     }
 }

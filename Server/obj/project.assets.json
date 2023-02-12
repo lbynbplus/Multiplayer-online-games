@@ -264,11 +264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git code\\159333project\\Server\\Server.csproj",
+      "projectUniqueName": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "D:\\git code\\159333project\\Server\\Server.csproj",
+      "projectPath": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\git code\\159333project\\Server\\obj\\",
+      "outputPath": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

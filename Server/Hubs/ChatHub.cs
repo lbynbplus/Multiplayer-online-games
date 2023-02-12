@@ -12,7 +12,7 @@ namespace Server.Hubs
 
         private readonly IPlayerService _playerService;
         private readonly IGameService _gameService;
-
+        private bool _disposed = false;
         private readonly IOptions<GameConfig> _gameConfig;
         public ChatHub(IPlayerService playerService,
             IGameService gameService,
@@ -40,6 +40,7 @@ namespace Server.Hubs
                 await Clients.Client(Context.ConnectionId).SendAsync("FirstPlayerJoin", "First time in the game");
 
                 await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
+                _disposed= true;
             }
             else
             {
@@ -148,8 +149,8 @@ namespace Server.Hubs
                     Id = Guid.NewGuid().ToString(),
                     Name = gameStartData.PlayerName,
                     ConnectionId = Context.ConnectionId,
+                    RoomOwner = _disposed,
                 };
-
                 var playerResult = await _playerService.AddPlayerToPlayerListAsync(player);
 
                 await _playerService.AddPlayerToDbAsync(player);
