@@ -37,16 +37,24 @@ namespace Server.Hubs
 
             if (playerList.Count <= 0)
             {
-                await Clients.Client(Context.ConnectionId).SendAsync("FirstPlayerJoin", "首次进入游戏");
+                await Clients.Client(Context.ConnectionId).SendAsync("FirstPlayerJoin", "First time in the game");
 
-                await Clients.All.SendAsync("ReceiveMessage", connectionId, $"允许的总玩家数为：{playerCount.ToString()}");
+                await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
             }
             else
             {
-                await Clients.Client(Context.ConnectionId).SendAsync("PlayerJoin", "创建角色进入游戏");
+                await Clients.Client(Context.ConnectionId).SendAsync("PlayerJoin", "Create a character to enter the game");
             }
 
-            await Clients.All.SendAsync("ReceiveMessage", connectionId, $"允许的总玩家数为：{playerCount.ToString()}");
+            await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
+
+            var onlinePlayer = playerList.Where(p => p.IsOffLine == false)
+                .Select(p => p.Name).ToList();
+
+            if (onlinePlayer.Count > 0)
+            {
+                await Clients.Client(Context.ConnectionId).SendAsync("ResetPlayerList", onlinePlayer);
+            }
         }
 
 
@@ -61,14 +69,12 @@ namespace Server.Hubs
                 ConnectionId = connectionId,
             };
 
-            var playerData = await _playerService.UpdatePlayerNetworkStatusAsync(player);
+            _ = await _playerService.UpdatePlayerNetworkStatusAsync(player);
         }
-
         /// <summary>
         /// 示例广播代码
         /// </summary>
-        /// <param name="user"></param>
-        /// <param name="message"></param>
+        /// <param name="gameStartData"></param>
         /// <returns></returns>
         public async Task SendMessage(GameStartData gameStartData)
         {
@@ -79,13 +85,27 @@ namespace Server.Hubs
             await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, gameStartData.GameName);
         }
 
+        /// <summary>
+        /// 聊天代码
+        /// </summary>
+        /// <param name="chatMsg"></param>
+        /// <returns></returns>
+        public async Task ChatMsg(ChatMsg chatMsg)
+        {
+            var playerCount = _gameConfig.Value.PlayerCount;
+
+            var connectionId = Context.ConnectionId;
+
+            await Clients.All.SendAsync("ReceiveMessage", chatMsg.PlayerName, chatMsg.MsgContent);
+        }
+
         public async Task StartGame()
         {
             var playerList = await _playerService.GetAllPlayersAsync();
 
             if (playerList.Count <= 0)
             {
-                await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "请添加玩家");
+                await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Please add players");
             }
             else
             {
@@ -93,14 +113,15 @@ namespace Server.Hubs
 
                 if (connectObj != null)
                 {
-                    await Clients.Client(connectObj.ConnectionId).SendAsync("ReceiveMessage", Context.ConnectionId, "请投骰子");
+                    await Clients.Client(connectObj.ConnectionId).SendAsync("ReceiveMessage", Context.ConnectionId, "Please throw the dice");
                 }
                 else
                 {
-                    await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "请添加玩家");
+                    await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Please add players");
                 }
             }
         }
+
 
         /// <summary>
         /// 添加用户到数据库和游戏用户列表
@@ -111,8 +132,13 @@ namespace Server.Hubs
         {
             if (string.IsNullOrEmpty(gameStartData.PlayerName))
             {
-                await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, $"用户名不能为空");
+                await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, $"Username cannot be empty");
                 return;
+            }
+
+            if (!string.IsNullOrEmpty(gameStartData.GameName))
+            {
+                _gameService.SetGameName(gameStartData.GameName);
             }
 
             try
@@ -130,14 +156,21 @@ namespace Server.Hubs
             }
             catch (Exception ex)
             {
-                await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, $"出现错误--{ex.Message}");
+                await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, $"An error has occurred--{ex.Message}");
             }
 
+            var gameName = _gameService.GetGameName();
 
-            await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, $"加入游戏--{gameStartData.GameName}");
+            await Clients.All.SendAsync("SetGameName", gameName);
+
+            await Clients.AllExcept(Context.ConnectionId).SendAsync("UpdatePlayerList", gameStartData);
+
+            await Clients.Client(Context.ConnectionId).SendAsync("SetCurrentPlayer", gameStartData);
+
+            await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, $"Join the game--{gameStartData.GameName}");
         }
 
-        public async Task RollDice(string user, string message)
+        public async Task RollDice(string user)
         {
             var data = _gameService.RollDice(user);
 
@@ -145,8 +178,8 @@ namespace Server.Hubs
 
             if (data.CardColor != CardColor.None)
             {
-                await Clients.AllExcept(Context.ConnectionId).SendAsync("ReceiveMessage", user, $"进入卡片游戏 卡片颜色--{data.CardColor}");
-                await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", user, $"你主导卡片游戏 卡片颜色--{data.CardColor}");
+                await Clients.AllExcept(Context.ConnectionId).SendAsync("ReceiveMessage", user, $"Go to Card Games Card Colors--{data.CardColor}");
+                await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", user, $"You lead the card game Card Colors--{data.CardColor}");
                 return;
             }
             else
@@ -166,7 +199,7 @@ namespace Server.Hubs
             }
             catch (Exception ex)
             {
-                await Clients.All.SendAsync("ReceiveMessage", user, $"出现错误--{ex.Message}");
+                await Clients.All.SendAsync("ReceiveMessage", user, $"An error has occurred--{ex.Message}");
             }
 
             await Clients.All.SendAsync("ReceiveMessage", user, System.Text.Json.JsonSerializer.Serialize(data)); ;

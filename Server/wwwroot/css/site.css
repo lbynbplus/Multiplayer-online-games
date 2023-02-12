@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #4B6CB7, #182848);
+}
+
+.gaming-section{
+    display:flex;
+    flex:1;
+}
+
+.board {
+    flex:1;
+    order:1;
+    display:flex;
+}
+
+.game-controls{
+    display:flex;
+    flex: 0 0 28vw;
+    flex-direction:column;
+    transform:translate(-18%, 0);
+}
+
+.players-section{
+    flex: 0 0 10vw;
+}
+
+.game-controls{
+    order: 2;
+}
+
+.players-section{
+    order: 3;
+}
+
+.board, .players-section, .game-controls{
+    padding: 3em;
+}
+
+.board{
+    margin-top: 2rem;
+}
+
+.game-board {
+    height: 78vh;
+    width: 80vh;
+    transform: translate(-39%, 0);
+    background-image: url("/images/board.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+    border: none;
+}
+
+
+.game-cards{
+    height: 12vh;
+    width: 210px;
+    display:flex;
+    flex-direction: row;
+    transform: translate(-90%, 17%);
+}
+
+.game-cards img {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.game-cards img:hover {
+    transform: scale(1.1);
+}
+
+.card-img{
+    justify-items:center;
+    height: 100%;
+    flex:1;
+    margin-right: 12px;
+    border: 1px solid #fff;
+}
+
+.chat-section {
+    transform: translate(-10%, -18%);
+}
+
+.message-box{
+    margin-top: 26vh;
+}
+
+.chat-messages {
+    background-color: #0b2d39;
+    color:#fff;
+    border-radius: 10px;
+    padding: 12px;
+    height: 30vh;
+}
+
+.input-box input {
+    background-color: #071e26;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+
+.rollBtn {
+    background: lightblue;
+    line-height: 1.5;
+    padding: 1em 2em;
+    margin-top: 10%;
+    transform:translate(250%, -10%);
+    font: 700 1.2rem 'poppins', sans-serif;
+    letter-spacing: 0.05rem;
+    cursor:pointer;
+}
+
+
+btn:hover {
+    opacity: 0.6
+}
+
+.dice img{
+    transform:translate(0, 120%);
+}
+
+.player-list {
+    transform: translate(-10%, -400%);
+}
+
+.player {
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;   
+}
+
+.container-1, .container-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 10vh;
+}
+   
+circle{
+    cursor: pointer;
+    transition: 1s;
+}
+
+circle:hover{
+    transform:scale(1.1);
+}
+
+.col-form-label{
+    color:black;
+}

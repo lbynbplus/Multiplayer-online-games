@@ -11,6 +11,9 @@ namespace Server.Services
         public GameMatrix RollDice(string userName);
         public void ResetGame();
 
+        public string GetGameName();
+
+        public void SetGameName(string gameName);
     }
 
     public class GameMatrix

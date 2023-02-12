@@ -10,6 +10,7 @@ namespace Server.Services
         private int _position = 0;
         private static Dictionary<string, List<int>> _positionHistory = new Dictionary<string, List<int>>();
 
+        private static string _gameName = "Snakes And Ladders";
         public GameService(IDiceRoller diceRoller, IGameFactory gameFactory)
         {
             _diceRoller = diceRoller;
@@ -69,6 +70,18 @@ namespace Server.Services
         {
             _ = _positionHistory.TryAdd(userName, new List<int>());
             return Move(userName, _diceRoller.RollDice());
+        }
+
+        public string GetGameName()
+        {
+            return _gameName;
+        }
+        public void SetGameName(string gameName)
+        {
+            if (!string.IsNullOrEmpty(gameName))
+            {
+                _gameName = gameName;
+            }
         }
     }
 }
