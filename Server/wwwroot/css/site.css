@@ -16,6 +16,11 @@ html {
     font-size: 14px;
 }
 
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
 body {
     display: flex;
     flex-direction: column;
