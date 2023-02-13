@@ -184,3 +184,8 @@ document.getElementById("rules-button").addEventListener("click", function (even
 
     event.preventDefault();
 });
+
+document.getElementById("exit-button").addEventListener("click", function (event) {
+    alert("The game ends!!");
+    event.preventDefault();
+})
