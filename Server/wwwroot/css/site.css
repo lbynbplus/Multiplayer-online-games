@@ -24,11 +24,6 @@ body {
     background: linear-gradient(to right, #4B6CB7, #182848);
 }
 
-::-webkit-scrollbar{
-    width:1px;
-    height:1px;
-}
-
 button, .sendMsg-btn {
     border: 1px solid #000;
     font-size: 20px;
@@ -59,7 +54,6 @@ button:hover {
 
 .button-container {
     display: flex;
-    transform: translate(20vh, 0);
 }
 
     .button-container button {
@@ -75,27 +69,23 @@ button:hover {
     font-weight: 800;
 }
 
-
 .gaming-section {
+   /* margin:5px 0 0 0;*/
     display: flex;
     flex: 1;
-}
-
-.board {
-    flex: 1;
-    order: 1;
-    display: flex;
 }
 
 .game-controls {
     display: flex;
-    flex: 0 0 28vw;
     flex-direction: column;
-    transform: translate(-18%, 0);
+    width: 35vw;
 }
 
 .players-section {
-    flex: 0 0 10vw;
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    margin-left: 20px;
 }
 
 .game-controls {
@@ -107,61 +97,51 @@ button:hover {
 }
 
 .board, .players-section, .game-controls {
-    padding: 3em;
+    padding: 1em;
 }
 
 .board {
-    margin-top: 2rem;
-}
-
-.game-board {
     height: 78vh;
-    width: 80vh;
-    transform: translate(-39%, 0);
+    width: 45vw;
     background-image: url("/images/board.png");
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #fff;
     border-radius: 5px;
-    box-shadow: 5px 10px 18px #888888;
     border: none;
+    margin-left: 20px;
 }
 
 
+/*game card section css*/
 .game-cards {
     height: 12vh;
-    width: 210px;
     display: flex;
     flex-direction: row;
-    transform: translate(-90%, 17%);
 }
 
-    .game-cards img {
-        transition: 1s;
-        cursor: pointer;
-    }
+.game-cards img {
+    transition: 1s;
+    cursor: pointer;
+}
 
-        .game-cards img:hover {
-            transform: scale(1.1);
-        }
+.game-cards img:hover {
+    transform: scale(1.1);
+}
 
 .card-img {
-    justify-items: center;
-    height: 100%;
     flex: 1;
-    margin-right: 12px;
     border: 1px solid #fff;
+    width: 140px;
 }
+/*game card section css*/
 
-.chat-section {
-    margin-bottom: 100%;
-    transform: translate(-40%, 0)
-}
+    /*Chat section css*/
+    .chat-section {
+        margin:100px 0 0 0;
+        justify-content:center;
+    }
 
-.message-box {
-    margin-bottom: 1vh;
-    margin-top: 10vh;
-}
 
 .chat-messages {
     background-color: #0b2d39;
@@ -182,29 +162,32 @@ button:hover {
     margin-top: 15px;
 }
 
+.btn-input {
+    display: flex;
+}
+
+.btn-input .input-btn {
+    margin: 15px;
+}
+
+/*chat section css end*/
 
 .rollBtn {
     background: lightblue;
     line-height: 1.5;
-    padding: 1em 2em;
-    margin-top: 10%;
-    margin-left: 30vh;
+    padding: 27px;
     font: 700 1.2rem 'poppins', sans-serif;
     letter-spacing: 0.05rem;
     cursor: pointer;
+    margin-left: 100px;
 }
 
+.exit-btn{
+    width: 110%;
+}
 
-btn:hover {
+.btn:hover {
     opacity: 0.6
-}
-
-.dice img {
-    transform: translate(0, 120%);
-}
-
-.player-list {
-    transform: translate(-10%, -400%);
 }
 
 .player {
@@ -230,4 +213,15 @@ circle {
 
 .col-form-label {
     color: black;
+}
+
+.token-list{
+    display:flex;
+}
+
+
+.dice-container{
+    display:flex;
+    margin: 50px 0 10px 0;
+    justify-content:center;
 }
