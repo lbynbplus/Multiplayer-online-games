@@ -176,3 +176,11 @@ document.getElementById("start-game-button").addEventListener("click", function 
     });
     event.preventDefault();
 });
+
+document.getElementById("rules-button").addEventListener("click", function (event) {
+    alert(
+        "All players can only start the game when the house owner starts the game." +
+        "The game will end when all players have collected three cards.");
+
+    event.preventDefault();
+});
