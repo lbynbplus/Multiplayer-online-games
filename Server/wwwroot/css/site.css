@@ -17,13 +17,19 @@ html {
 }
 
 body {
-    display:flex;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
     background: linear-gradient(to right, #4B6CB7, #182848);
 }
-button {
+
+::-webkit-scrollbar{
+    width:1px;
+    height:1px;
+}
+
+button, .sendMsg-btn {
     border: 1px solid #000;
     font-size: 20px;
     font-weight: 400;
@@ -34,10 +40,14 @@ button {
     transition: 1s;
 }
 
-    button:hover {
-        opacity: 0.6;
-        transform: scale(1.1);
-    }
+.sendMsg-btn {
+    font-size: 12px;
+}
+
+button:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
 
 .header {
     display: flex;
@@ -52,9 +62,9 @@ button {
     transform: translate(20vh, 0);
 }
 
-.button-container button {
+    .button-container button {
         margin-right: 10px;
- }
+    }
 
 .start-btn {
     padding-right: 12px;
@@ -66,41 +76,41 @@ button {
 }
 
 
-.gaming-section{
-    display:flex;
-    flex:1;
+.gaming-section {
+    display: flex;
+    flex: 1;
 }
 
 .board {
-    flex:1;
-    order:1;
-    display:flex;
+    flex: 1;
+    order: 1;
+    display: flex;
 }
 
-.game-controls{
-    display:flex;
+.game-controls {
+    display: flex;
     flex: 0 0 28vw;
-    flex-direction:column;
-    transform:translate(-18%, 0);
+    flex-direction: column;
+    transform: translate(-18%, 0);
 }
 
-.players-section{
+.players-section {
     flex: 0 0 10vw;
 }
 
-.game-controls{
+.game-controls {
     order: 2;
 }
 
-.players-section{
+.players-section {
     order: 3;
 }
 
-.board, .players-section, .game-controls{
+.board, .players-section, .game-controls {
     padding: 3em;
 }
 
-.board{
+.board {
     margin-top: 2rem;
 }
 
@@ -118,42 +128,44 @@ button {
 }
 
 
-.game-cards{
+.game-cards {
     height: 12vh;
     width: 210px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     transform: translate(-90%, 17%);
 }
 
-.game-cards img {
-    transition: 1s;
-    cursor: pointer;
-}
+    .game-cards img {
+        transition: 1s;
+        cursor: pointer;
+    }
 
-.game-cards img:hover {
-    transform: scale(1.1);
-}
+        .game-cards img:hover {
+            transform: scale(1.1);
+        }
 
-.card-img{
-    justify-items:center;
+.card-img {
+    justify-items: center;
     height: 100%;
-    flex:1;
+    flex: 1;
     margin-right: 12px;
     border: 1px solid #fff;
 }
 
 .chat-section {
-    transform: translate(-10%, -18%);
+    margin-bottom: 100%;
+    transform: translate(-40%, 0)
 }
 
-.message-box{
-    margin-top: 26vh;
+.message-box {
+    margin-bottom: 1vh;
+    margin-top: 10vh;
 }
 
 .chat-messages {
     background-color: #0b2d39;
-    color:#fff;
+    color: #fff;
     border-radius: 10px;
     padding: 12px;
     height: 30vh;
@@ -176,10 +188,10 @@ button {
     line-height: 1.5;
     padding: 1em 2em;
     margin-top: 10%;
-    transform:translate(250%, -10%);
+    margin-left: 30vh;
     font: 700 1.2rem 'poppins', sans-serif;
     letter-spacing: 0.05rem;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 
@@ -187,8 +199,8 @@ btn:hover {
     opacity: 0.6
 }
 
-.dice img{
-    transform:translate(0, 120%);
+.dice img {
+    transform: translate(0, 120%);
 }
 
 .player-list {
@@ -198,7 +210,7 @@ btn:hover {
 .player {
     list-style: none;
     font-size: 20px;
-    line-height: 40px;   
+    line-height: 40px;
 }
 
 .container-1, .container-2 {
@@ -206,16 +218,16 @@ btn:hover {
     flex-direction: column;
     line-height: 10vh;
 }
-   
-circle{
+
+circle {
     cursor: pointer;
     transition: 1s;
 }
 
-circle:hover{
-    transform:scale(1.1);
-}
+    circle:hover {
+        transform: scale(1.1);
+    }
 
-.col-form-label{
-    color:black;
+.col-form-label {
+    color: black;
 }

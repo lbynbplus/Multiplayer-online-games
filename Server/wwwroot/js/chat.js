@@ -9,6 +9,8 @@ connection.on("ReceiveMessage", function (user, message) {
     // is not interpreted as markup. If you're assigning in any other way, you 
     // should be aware of possible script injection concerns.
     li.textContent = `${user} : ${message}`;
+    var chatbox = document.getElementById('messagesList');
+    chatbox.scrollTop = chatbox.scrollHeight;
 });
 
 connection.on("FirstPlayerJoin", function (message) {
@@ -117,10 +119,8 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
 })
 
 document.getElementById("first-player-save-btn").addEventListener("click", function (event) {
-    var gameName = document.getElementById("game-name").value;
     var playerName = document.getElementById("player-name").value;
     var data ={
-        GameName :gameName,
         PlayerName:playerName
     }
     console.log(data);
@@ -145,14 +145,11 @@ document.getElementById("player-save-btn").addEventListener("click", function (e
 document.getElementById("sendChatMsgButton").addEventListener("click", function (event) {
     var playerName = document.getElementById("current-player").textContent;
     console.log(playerName);
-
     var message = document.getElementById("messageInput").value;
-
     var data = {
         MsgContent: message,
         PlayerName: playerName
     }
-
     console.log(data);
     connection.invoke("ChatMsg", data).catch(function (err) {
         return console.error(err.toString());

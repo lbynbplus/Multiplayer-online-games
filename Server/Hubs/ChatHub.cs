@@ -39,7 +39,7 @@ namespace Server.Hubs
             {
                 await Clients.Client(Context.ConnectionId).SendAsync("FirstPlayerJoin", "First time in the game");
 
-                await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
+                //await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
                 _disposed = true;
             }
             else
@@ -47,7 +47,7 @@ namespace Server.Hubs
                 await Clients.Client(Context.ConnectionId).SendAsync("PlayerJoin", "Create a character to enter the game");
             }
 
-            await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
+            //await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
 
             var onlinePlayer = playerList.Where(p => p.IsOffLine == false)
                 .Select(p => p.Name).ToList();
