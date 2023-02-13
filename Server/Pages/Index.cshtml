@@ -34,8 +34,11 @@
     <div class="game-controls">
         <div class="game-cards">
             <img src="images/card1.png" alt="card1" class="card-img">
+            <ul id="cardG"></ul>
             <img src="images/card2.png" alt="card1" class="card-img">
+            <ul id="cardY"></ul>
             <img src="images/card3.png" alt="card1" class="card-img">
+            <ul id="cardB"></ul>
         </div>
 
         @*Die rolling*@
@@ -120,8 +123,7 @@
                         <form>
                             <div class="mb-3">
                                 <label for="game-name" class="col-form-label">You are the Roomowner</label>
-                            </div>
-                            <div class="mb-3">
+                                <label for="game-name" class="col-form-label">Please enter the game name to join the game</label>
                                 <label for="player-name" class="col-form-label">Player Name:</label>
                                 <textarea class="form-control" id="player-name"></textarea>
                             </div>

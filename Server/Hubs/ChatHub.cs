@@ -104,12 +104,6 @@ namespace Server.Hubs
         {
             var gameRoomOwner = _gameService.GetGameRoomOwner();
 
-            if (string.IsNullOrEmpty(gameRoomOwner))
-            {
-                await Clients.All.SendAsync("ReceiveMessage", playerName, "There is no roomowner");
-                return;
-            }
-
             if (playerName == gameRoomOwner)
             {
                 await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", playerName, "You are the roomowner");
@@ -185,7 +179,7 @@ namespace Server.Hubs
 
             await Clients.Client(Context.ConnectionId).SendAsync("SetCurrentPlayer", gameStartData);
 
-            await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, $"Join the game--{gameStartData.GameName}");
+            await Clients.All.SendAsync("ReceiveMessage", gameStartData.PlayerName, "Join the game");
         }
 
         public async Task RollDice(string user)

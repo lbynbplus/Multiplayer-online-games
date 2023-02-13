@@ -28,6 +28,7 @@ connection.on("PlayerJoin", function (message) {
     myModal.show();
 });
 
+
 connection.on("UpdatePlayerList", function (message) {
     console.log("更新玩家列表")
     console.log(message);
@@ -93,6 +94,15 @@ connection.on("SetCurrentPlayer", function (message) {
     // should be aware of possible script injection concerns.
     li.textContent = `${playerName}`;
 
+});
+
+connection.on("cardG", function (message) {
+    var li = document.createElement("li");
+    console.log("绿卡片数量")
+    console.log(message);
+    document.getElementById("cardG").appendChild(li);
+    var CardG = message.CardG;
+    li.textContent = `${CardG}`;
 });
 
 connection.start().then(function () {

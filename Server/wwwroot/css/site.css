@@ -136,10 +136,10 @@ button:hover {
     transform: translate(-90%, 17%);
 }
 
-    .game-cards img {
-        transition: 1s;
-        cursor: pointer;
-    }
+.game-cards img {
+    transition: 1s;
+    cursor: pointer;
+}
 
         .game-cards img:hover {
             transform: scale(1.1);
