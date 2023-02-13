@@ -1,23 +1,19 @@
-﻿@page
+@page
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
 <header class="header">
-    <div class="start-btn">
-        <button id="start-game-button" class="start-btn">Start Game</button>
+    <div class="start-button">
+        <button class="start-btn">Start Game</button>
     </div>
 
     <div class="game-title">
-        <h3>Multiplayer online games</h3>
+        <h3>Snakes and Ladders</h3>
     </div>
 
     <div class="button-container">
-        <div class="rules-button">
-            <button class="rules-btn">Rules</button>
-        </div>
-
         <div class="exit-button">
             <button class="exit-btn">Exit</button>
         </div>
@@ -27,7 +23,6 @@
 <div class="gaming-section">
     @*board*@
     <div class="board">
-        <div class="game-board"></div>
     </div>
 
     @*game card*@
@@ -51,7 +46,8 @@
             <div class="message-box">
                 @*Chat area*@
                 <div class="chat-messages">
-                    <div id="messagesList" style="height:260px;overflow-y:auto;width:500px"></div>
+                    <div id="messagesList" style="height:260px;overflow-y:auto;width:33vw"></div>
+                </div>
                 <!-- Chat Input -->
                 <div class="btn-input">
                     <div class="input-box">
@@ -62,10 +58,9 @@
                         <input type="button" id="sendChatMsgButton" value="Send" class="sendMsg-btn" />
                     </div>
                 </div>
-                </div>
             </div>
-
         </div>
+
     </div>
 
     <div class="players-section">
@@ -73,91 +68,105 @@
         <div class="players-list">
             <h3>Current Players:</h3>
             <ul id="player-list">
+                @*<li>Player 1</li>
+                <li>Player 1</li>
+                <li>Player 1</li>
+                <li>Player 1</li>*@
             </ul>
 
         </div>
 
         @*tokens*@
         <div class="token-list">
-            <svg height="100" width="100">
-                <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="red" />
-            </svg>
-            <svg height="100" width="100">
-                <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="yellow" />
-            </svg>
+            <div class="container-1">
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="red" />
+                </svg>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="yellow" />
+                </svg>
 
-            <svg height="100" width="100">
-                <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="brown" />
-            </svg>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="brown" />
+                </svg>
 
-            <svg height="100" width="100">
-                <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="green" />
-            </svg>
+            </div>
+            
+            <div class="container-2">
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="green" />
+                </svg>
 
-            <svg height="100" width="100">
-                <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="grey" />
-            </svg>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="grey" />
+                </svg>
 
-            <svg height="100" width="100">
-                <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="purple" />
-            </svg>
+                <svg height="100" width="100">
+                    <circle cx="50" cy="50" r="20" stroke="black" stroke-width="3" fill="purple" />
+                </svg>
+            </div>
+            
+        </div>
+    </div>
+</div>
 
+
+
+
+@*Alert*@
+<div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="game-name" class="col-form-label">You are the Roomowner</label>
+                            <input type="text" class="form-control" id="game-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="player-name" class="col-form-label">Player Name:</label>
+                            <textarea class="form-control" id="player-name"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="first-player-save-btn" data-bs-dismiss="modal">Save to play</button>
+                </div>
+            </div>
         </div>
     </div>
 
 
-
-    @*Alert*@
-    <div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="game-name" class="col-form-label">You are the Roomowner</label>
-                            </div>
-                            <div class="mb-3">
-                                <label for="player-name" class="col-form-label">Player Name:</label>
-                                <textarea class="form-control" id="player-name"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" id="first-player-save-btn" data-bs-dismiss="modal">Save to play</button>
-                    </div>
+    <div class="modal fade" id="joinGameModal" tabindex="-1" aria-labelledby="joinGameModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="joinGameModalLabel">New message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-            </div>
-        </div>
-
-
-        <div class="modal fade" id="joinGameModal" tabindex="-1" aria-labelledby="joinGameModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="joinGameModalLabel">New message</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="join-game-player-name" class="col-form-label">Player Name:</label>
-                                <textarea class="form-control" id="join-game-player-name"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" id="player-save-btn" data-bs-dismiss="modal">Save to play</button>
-                    </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="join-game-player-name" class="col-form-label">Player Name:</label>
+                            <textarea class="form-control" id="join-game-player-name"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="player-save-btn" data-bs-dismiss="modal">Save to play</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
 
 
