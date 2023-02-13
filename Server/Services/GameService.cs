@@ -11,6 +11,8 @@ namespace Server.Services
         private static Dictionary<string, List<int>> _positionHistory = new Dictionary<string, List<int>>();
 
         private static string _gameName = "Snakes And Ladders";
+
+        private static string _gameRoomOwner = string.Empty;
         public GameService(IDiceRoller diceRoller, IGameFactory gameFactory)
         {
             _diceRoller = diceRoller;
@@ -81,6 +83,19 @@ namespace Server.Services
             if (!string.IsNullOrEmpty(gameName))
             {
                 _gameName = gameName;
+            }
+        }
+
+        public string GetGameRoomOwner()
+        {
+            return _gameRoomOwner;
+        }
+
+        public void SetGameRoomOwner(string gameRoomOwner)
+        {
+            if (!string.IsNullOrEmpty(gameRoomOwner))
+            {
+                _gameRoomOwner = gameRoomOwner;
             }
         }
     }

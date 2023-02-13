@@ -159,3 +159,13 @@ document.getElementById("sendChatMsgButton").addEventListener("click", function 
     });
     event.preventDefault();
 });
+
+document.getElementById("start-game-button").addEventListener("click", function (event) {
+    var playerName = document.getElementById("current-player").textContent;
+    console.log(playerName);
+
+    connection.invoke("StartGame", playerName).catch(function (err) {
+        return console.error(err.toString());
+    });
+    event.preventDefault();
+});

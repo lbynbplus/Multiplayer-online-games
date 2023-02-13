@@ -14,6 +14,10 @@ namespace Server.Services
         public string GetGameName();
 
         public void SetGameName(string gameName);
+
+        public string GetGameRoomOwner();
+
+        public void SetGameRoomOwner(string gameRoomOwner);
     }
 
     public class GameMatrix

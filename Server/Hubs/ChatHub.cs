@@ -40,7 +40,7 @@ namespace Server.Hubs
                 await Clients.Client(Context.ConnectionId).SendAsync("FirstPlayerJoin", "First time in the game");
 
                 await Clients.All.SendAsync("ReceiveMessage", connectionId, $"The total number of players allowed is:{playerCount.ToString()}");
-                _disposed= true;
+                _disposed = true;
             }
             else
             {
@@ -100,27 +100,43 @@ namespace Server.Hubs
             await Clients.All.SendAsync("ReceiveMessage", chatMsg.PlayerName, chatMsg.MsgContent);
         }
 
-        public async Task StartGame()
+        public async Task StartGame(string playerName)
         {
-            var playerList = await _playerService.GetAllPlayersAsync();
+            var gameRoomOwner = _gameService.GetGameRoomOwner();
 
-            if (playerList.Count <= 0)
+            if (string.IsNullOrEmpty(gameRoomOwner))
             {
-                await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Please add players");
+                await Clients.All.SendAsync("ReceiveMessage", playerName, "There is no roomowner");
+                return;
+            }
+
+            if (playerName == gameRoomOwner)
+            {
+                await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", playerName, "You are the roomowner");
             }
             else
             {
-                var connectObj = playerList.FirstOrDefault();
-
-                if (connectObj != null)
-                {
-                    await Clients.Client(connectObj.ConnectionId).SendAsync("ReceiveMessage", Context.ConnectionId, "Please throw the dice");
-                }
-                else
-                {
-                    await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Please add players");
-                }
+                await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", playerName, "You are not the roomowner");
             }
+            //var playerList = await _playerService.GetAllPlayersAsync();
+
+            //if (playerList.Count <= 0)
+            //{
+            //    await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Please add players");
+            //}
+            //else
+            //{
+            //    var connectObj = playerList.FirstOrDefault();
+
+            //    if (connectObj != null)
+            //    {
+            //        await Clients.Client(connectObj.ConnectionId).SendAsync("ReceiveMessage", Context.ConnectionId, "Please throw the dice");
+            //    }
+            //    else
+            //    {
+            //        await Clients.All.SendAsync("ReceiveMessage", Context.ConnectionId, "Please add players");
+            //    }
+            //}
         }
 
 
@@ -140,6 +156,7 @@ namespace Server.Hubs
             if (!string.IsNullOrEmpty(gameStartData.GameName))
             {
                 _gameService.SetGameName(gameStartData.GameName);
+                _gameService.SetGameRoomOwner(gameStartData.PlayerName);
             }
 
             try
