@@ -183,11 +183,5 @@ document.getElementById("rules-button").addEventListener("click", function (even
     alert(
         "All players can only start the game when the house owner starts the game." +
         "The game will end when all players have collected three cards.");
-
     event.preventDefault();
 });
-
-document.getElementById("exit-button").addEventListener("click", function (event) {
-    alert("The game ends!!");
-    event.preventDefault();
-})

@@ -1,1079 +1,1079 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Server.bundle.scp.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Server.bundle.scp.css",
       "PackagePath": "staticwebassets\\Server.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\css\\site.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\favicon.ico",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\board.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\board.png",
       "PackagePath": "staticwebassets\\images\\board.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\board2.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\board2.png",
       "PackagePath": "staticwebassets\\images\\board2.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\card1.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\card1.png",
       "PackagePath": "staticwebassets\\images\\card1.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\card2.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\card2.png",
       "PackagePath": "staticwebassets\\images\\card2.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\card3.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\card3.png",
       "PackagePath": "staticwebassets\\images\\card3.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\dice\\dice1.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\dice\\dice1.png",
       "PackagePath": "staticwebassets\\images\\dice\\dice1.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\dice\\dice2.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\dice\\dice2.png",
       "PackagePath": "staticwebassets\\images\\dice\\dice2.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\dice\\dice3.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\dice\\dice3.png",
       "PackagePath": "staticwebassets\\images\\dice\\dice3.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\dice\\dice4.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\dice\\dice4.png",
       "PackagePath": "staticwebassets\\images\\dice\\dice4.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\dice\\dice5.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\dice\\dice5.png",
       "PackagePath": "staticwebassets\\images\\dice\\dice5.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\images\\dice\\dice6.png",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\images\\dice\\dice6.png",
       "PackagePath": "staticwebassets\\images\\dice\\dice6.png"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\chat.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\chat.js",
       "PackagePath": "staticwebassets\\js\\chat.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\README.md",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\README.md",
       "PackagePath": "staticwebassets\\js\\signalr\\README.md"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AbortController.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AbortController.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\AbortController.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AbortController.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AbortController.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\AbortController.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AccessTokenHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AccessTokenHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\AccessTokenHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AccessTokenHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\AccessTokenHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\AccessTokenHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\DefaultHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\DefaultHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\DefaultReconnectPolicy.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Errors.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Errors.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Errors.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Errors.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Errors.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Errors.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\FetchHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\FetchHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\FetchHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\FetchHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\FetchHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\FetchHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HandshakeProtocol.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HandshakeProtocol.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HandshakeProtocol.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HandshakeProtocol.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HandshakeProtocol.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HandshakeProtocol.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HeaderNames.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HeaderNames.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HeaderNames.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HeaderNames.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HeaderNames.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HeaderNames.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpConnection.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpConnection.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HttpConnection.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpConnection.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HttpConnection.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HttpConnection.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnection.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnection.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HubConnection.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnection.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnection.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HubConnection.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnectionBuilder.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnectionBuilder.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HubConnectionBuilder.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnectionBuilder.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\HubConnectionBuilder.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\HubConnectionBuilder.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IConnection.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IConnection.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IConnection.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IConnection.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IConnection.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IConnection.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHttpConnectionOptions.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHttpConnectionOptions.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IHttpConnectionOptions.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHttpConnectionOptions.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHttpConnectionOptions.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IHttpConnectionOptions.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHubProtocol.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHubProtocol.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IHubProtocol.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHubProtocol.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IHubProtocol.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IHubProtocol.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ILogger.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ILogger.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\ILogger.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ILogger.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ILogger.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\ILogger.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IRetryPolicy.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IRetryPolicy.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IRetryPolicy.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IRetryPolicy.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\IRetryPolicy.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\IRetryPolicy.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ITransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ITransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\ITransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ITransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ITransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\ITransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\JsonHubProtocol.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\JsonHubProtocol.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\JsonHubProtocol.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\JsonHubProtocol.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\JsonHubProtocol.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\JsonHubProtocol.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Loggers.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Loggers.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Loggers.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Loggers.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Loggers.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Loggers.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\LongPollingTransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\LongPollingTransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\LongPollingTransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\LongPollingTransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\LongPollingTransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\LongPollingTransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Polyfills.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Polyfills.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Polyfills.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Polyfills.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Polyfills.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Polyfills.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ServerSentEventsTransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ServerSentEventsTransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\ServerSentEventsTransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ServerSentEventsTransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\ServerSentEventsTransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\ServerSentEventsTransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Stream.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Stream.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Stream.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Stream.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Stream.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Stream.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Subject.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Subject.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Subject.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Subject.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Subject.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Subject.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\TextMessageFormat.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\TextMessageFormat.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\TextMessageFormat.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\TextMessageFormat.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\TextMessageFormat.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\TextMessageFormat.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Utils.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Utils.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Utils.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Utils.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\Utils.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\Utils.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\WebSocketTransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\WebSocketTransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\WebSocketTransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\WebSocketTransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\WebSocketTransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\WebSocketTransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\XhrHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\XhrHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\XhrHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\XhrHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\XhrHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\XhrHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\browser-index.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\browser-index.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\browser-index.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\browser-index.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\browser-index.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\browser-index.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\index.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\index.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\index.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\index.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\cjs\\index.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\cjs\\index.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AbortController.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AbortController.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\AbortController.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AbortController.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AbortController.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\AbortController.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AbortController.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AbortController.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\AbortController.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\AccessTokenHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultHttpClient.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultHttpClient.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\DefaultHttpClient.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\DefaultHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\DefaultHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\DefaultReconnectPolicy.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Errors.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Errors.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Errors.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Errors.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Errors.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Errors.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Errors.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Errors.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Errors.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\FetchHttpClient.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\FetchHttpClient.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\FetchHttpClient.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\FetchHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\FetchHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\FetchHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\FetchHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\FetchHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\FetchHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HandshakeProtocol.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HandshakeProtocol.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HandshakeProtocol.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HandshakeProtocol.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HandshakeProtocol.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HandshakeProtocol.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HandshakeProtocol.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HandshakeProtocol.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HandshakeProtocol.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HeaderNames.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HeaderNames.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HeaderNames.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HeaderNames.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HeaderNames.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HeaderNames.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HeaderNames.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HeaderNames.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HeaderNames.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpClient.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpClient.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HttpClient.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpConnection.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpConnection.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HttpConnection.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpConnection.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpConnection.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HttpConnection.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpConnection.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HttpConnection.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HttpConnection.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnection.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnection.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HubConnection.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnection.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnection.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HubConnection.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnection.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnection.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HubConnection.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnectionBuilder.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnectionBuilder.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HubConnectionBuilder.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnectionBuilder.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnectionBuilder.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HubConnectionBuilder.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnectionBuilder.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\HubConnectionBuilder.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\HubConnectionBuilder.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IConnection.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IConnection.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IConnection.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IConnection.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IConnection.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IConnection.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IConnection.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IConnection.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IConnection.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IHttpConnectionOptions.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHubProtocol.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHubProtocol.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IHubProtocol.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHubProtocol.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHubProtocol.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IHubProtocol.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHubProtocol.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IHubProtocol.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IHubProtocol.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ILogger.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ILogger.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ILogger.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ILogger.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ILogger.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ILogger.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ILogger.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ILogger.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ILogger.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IRetryPolicy.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IRetryPolicy.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IRetryPolicy.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IRetryPolicy.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IRetryPolicy.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IRetryPolicy.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IRetryPolicy.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\IRetryPolicy.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\IRetryPolicy.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ITransport.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ITransport.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ITransport.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ITransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ITransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ITransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ITransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ITransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ITransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\JsonHubProtocol.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\JsonHubProtocol.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\JsonHubProtocol.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\JsonHubProtocol.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\JsonHubProtocol.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\JsonHubProtocol.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\JsonHubProtocol.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\JsonHubProtocol.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\JsonHubProtocol.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Loggers.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Loggers.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Loggers.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Loggers.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Loggers.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Loggers.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Loggers.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Loggers.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Loggers.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\LongPollingTransport.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\LongPollingTransport.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\LongPollingTransport.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\LongPollingTransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\LongPollingTransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\LongPollingTransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\LongPollingTransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\LongPollingTransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\LongPollingTransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Polyfills.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Polyfills.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Polyfills.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Polyfills.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Polyfills.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Polyfills.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Polyfills.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Polyfills.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Polyfills.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\ServerSentEventsTransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Stream.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Stream.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Stream.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Stream.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Stream.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Stream.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Stream.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Stream.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Stream.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Subject.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Subject.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Subject.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Subject.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Subject.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Subject.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Subject.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Subject.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Subject.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\TextMessageFormat.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\TextMessageFormat.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\TextMessageFormat.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\TextMessageFormat.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\TextMessageFormat.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\TextMessageFormat.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\TextMessageFormat.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\TextMessageFormat.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\TextMessageFormat.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Utils.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Utils.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Utils.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Utils.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Utils.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Utils.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Utils.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\Utils.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\Utils.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\WebSocketTransport.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\WebSocketTransport.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\WebSocketTransport.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\WebSocketTransport.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\WebSocketTransport.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\WebSocketTransport.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\WebSocketTransport.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\WebSocketTransport.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\WebSocketTransport.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\XhrHttpClient.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\XhrHttpClient.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\XhrHttpClient.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\XhrHttpClient.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\XhrHttpClient.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\XhrHttpClient.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\XhrHttpClient.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\XhrHttpClient.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\XhrHttpClient.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\browser-index.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\browser-index.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\browser-index.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\browser-index.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\browser-index.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\browser-index.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\browser-index.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\browser-index.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\browser-index.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\index.d.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\index.d.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\index.d.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\index.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\index.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\index.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\esm\\index.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\esm\\index.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\esm\\index.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\webworker\\signalr.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\webworker\\signalr.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.min.js",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\webworker\\signalr.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.min.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\dist\\webworker\\signalr.min.js.map",
       "PackagePath": "staticwebassets\\js\\signalr\\dist\\webworker\\signalr.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\package.json",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\package.json",
       "PackagePath": "staticwebassets\\js\\signalr\\package.json"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\AbortController.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\AbortController.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\AbortController.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\AccessTokenHttpClient.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\AccessTokenHttpClient.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\AccessTokenHttpClient.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\DefaultHttpClient.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\DefaultHttpClient.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\DefaultHttpClient.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\DefaultReconnectPolicy.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\DefaultReconnectPolicy.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\DefaultReconnectPolicy.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\Errors.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\Errors.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\Errors.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\FetchHttpClient.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\FetchHttpClient.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\FetchHttpClient.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\HandshakeProtocol.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\HandshakeProtocol.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\HandshakeProtocol.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\HeaderNames.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\HeaderNames.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\HeaderNames.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\HttpClient.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\HttpClient.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\HttpClient.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\HttpConnection.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\HttpConnection.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\HttpConnection.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\HubConnection.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\HubConnection.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\HubConnection.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\HubConnectionBuilder.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\HubConnectionBuilder.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\HubConnectionBuilder.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\IConnection.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\IConnection.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\IConnection.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\IHttpConnectionOptions.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\IHttpConnectionOptions.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\IHttpConnectionOptions.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\IHubProtocol.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\IHubProtocol.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\IHubProtocol.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\ILogger.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\ILogger.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\ILogger.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\IRetryPolicy.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\IRetryPolicy.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\IRetryPolicy.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\ITransport.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\ITransport.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\ITransport.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\JsonHubProtocol.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\JsonHubProtocol.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\JsonHubProtocol.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\Loggers.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\Loggers.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\Loggers.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\LongPollingTransport.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\LongPollingTransport.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\LongPollingTransport.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\Polyfills.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\Polyfills.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\Polyfills.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\ServerSentEventsTransport.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\ServerSentEventsTransport.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\ServerSentEventsTransport.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\Stream.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\Stream.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\Stream.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\Subject.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\Subject.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\Subject.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\TextMessageFormat.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\TextMessageFormat.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\TextMessageFormat.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\Utils.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\Utils.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\Utils.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\WebSocketTransport.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\WebSocketTransport.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\WebSocketTransport.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\XhrHttpClient.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\XhrHttpClient.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\XhrHttpClient.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\browser-index.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\browser-index.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\browser-index.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\index.ts",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\index.ts",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\index.ts"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\signalr\\src\\third-party-notices.txt",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\signalr\\src\\third-party-notices.txt",
       "PackagePath": "staticwebassets\\js\\signalr\\src\\third-party-notices.txt"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\js\\site.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Rusira\\Desktop\\Web-client\\Multiplayer-online-games\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Project\\mine\\GIT Code\\159333project\\Server\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
