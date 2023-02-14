@@ -4,8 +4,19 @@
 // Write your JavaScript code.
 
 //Timer
-const countDownTime = 120; // number of seconds to count down from
-let countDown = countDownTime;
+var countDownDate = new Date("Jul 25, 2021 16:37:52").getTime();
+
+var myfunc = setInterval(function() {
+
+    var now = new Date().getTime();
+    var timeleft = countDownDate - now;
+
+    var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+
+    document.getElementById("timer").innerHTML = minutes;
+
+
+}, 1000);
 
 
 //die roll
