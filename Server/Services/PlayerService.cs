@@ -1,5 +1,6 @@
 ﻿using LiteDB;
 using Microsoft.Extensions.Options;
+using Server.Domain;
 using Server.Models;
 
 namespace Server.Services
@@ -11,6 +12,8 @@ namespace Server.Services
         private static List<Player> PlayerList = new List<Player>();
 
         private readonly int _playerCount = 0;
+
+        private int _currentOnlinePlayerIndex = 0;
         public PlayerService(IOptions<GameConfig> options, string dbDataPath = "gameData.db")
         {
             _liteDatabase = new LiteDatabase(dbDataPath);
@@ -93,6 +96,93 @@ namespace Server.Services
         public Task<List<Player>> GetAllPlayersAsync()
         {
             return Task.FromResult(PlayerList);
+        }
+
+        public int UpdateCurrentPlayerIndex()
+        {
+            _currentOnlinePlayerIndex += 1;
+            if (PlayerList.Count > 0)
+            {
+                if (_currentOnlinePlayerIndex >= PlayerList.Count)
+                {
+                    _currentOnlinePlayerIndex = 0;
+                }
+            }
+
+            return _currentOnlinePlayerIndex;
+        }
+
+        public int GetCurrentPlayerIndex()
+        {
+            return _currentOnlinePlayerIndex;
+        }
+
+        public int ComputeCurrentPlayerIndex(string playerName)
+        {
+            var onlinePlayers = PlayerList.Where(p => p.IsOffLine == false).ToList();
+
+            var index = onlinePlayers.FindIndex(p => p.Name == playerName);
+
+            return index;
+        }
+
+        public Task<Player> UpdatePlayerCardCountAsync(string playerName, CardColor cardColor)
+        {
+            var players = _liteDatabase.GetCollection<Player>();
+
+            var playerData = players.Query().Where(p => p.Name == playerName).FirstOrDefault();
+
+            if (playerData is not null)
+            {
+                if (cardColor == CardColor.Blue)
+                {
+                    playerData.CardB += 1;
+                }
+                else if (cardColor == CardColor.Green)
+                {
+                    playerData.CardG += 1;
+                }
+                else if (cardColor == CardColor.Yellow)
+                {
+                    playerData.CardY += 1;
+                }
+
+                if (playerData.CardY > 0 && playerData.CardG > 0 && playerData.CardB > 0)
+                {
+                    playerData.CardNumIsOk = true;
+                }
+
+                _ = players.Update(playerData);
+
+
+                foreach (var playerItem in PlayerList)
+                {
+                    if (playerItem.Name == playerName)
+                    {
+                        if (cardColor == CardColor.Blue)
+                        {
+                            playerItem.CardB += 1;
+                        }
+                        else if (cardColor == CardColor.Green)
+                        {
+                            playerItem.CardG += 1;
+                        }
+                        else if (cardColor == CardColor.Yellow)
+                        {
+                            playerItem.CardY += 1;
+                        }
+
+                        if (playerItem.CardY > 0 && playerItem.CardG > 0 && playerItem.CardB > 0)
+                        {
+                            playerItem.CardNumIsOk = true;
+                        }
+
+                        return Task.FromResult(playerItem);
+                    }
+                }
+
+            }
+            return Task.FromResult(new Player());
         }
     }
 }

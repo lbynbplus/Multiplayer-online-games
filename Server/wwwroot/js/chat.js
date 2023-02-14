@@ -130,8 +130,10 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
 
 document.getElementById("first-player-save-btn").addEventListener("click", function (event) {
     var playerName = document.getElementById("player-name").value;
+    console.log("首个用户进入后台")
     var data ={
-        PlayerName:playerName
+        PlayerName: playerName,
+        GameName: "Snakes and Ladders"
     }
     console.log(data);
     connection.invoke("AddUser", data).catch(function (err) {

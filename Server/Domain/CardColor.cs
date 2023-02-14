@@ -5,6 +5,6 @@
         None = 0,
         Green = 1,
         Blue = 2,
-        Red = 3
+        Yellow = 3
     }
 }

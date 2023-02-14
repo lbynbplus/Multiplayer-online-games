@@ -1,8 +1,4 @@
 ﻿using Server.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Server.Services
 {
@@ -18,6 +14,10 @@ namespace Server.Services
         public string GetGameRoomOwner();
 
         public void SetGameRoomOwner(string gameRoomOwner);
+
+        public bool GetGameStatus();
+
+        public void SetGameStatus(bool isGameOver);
     }
 
     public class GameMatrix

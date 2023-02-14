@@ -1,4 +1,5 @@
-﻿using Server.Models;
+﻿using Server.Domain;
+using Server.Models;
 
 namespace Server.Services
 {
@@ -36,5 +37,28 @@ namespace Server.Services
         /// </summary>
         /// <returns></returns>
         Task<List<Player>> GetAllPlayersAsync();
+        /// <summary>
+        /// 更新当前投骰子的玩家索引
+        /// </summary>
+        /// <returns></returns>
+        int UpdateCurrentPlayerIndex();
+        /// <summary>
+        /// 获取当前轮到投骰子的玩家索引
+        /// </summary>
+        /// <returns></returns>
+        int GetCurrentPlayerIndex();
+
+        /// <summary>
+        /// 计算当前用户索引
+        /// </summary>
+        /// <returns></returns>
+        int ComputeCurrentPlayerIndex(string playerName);
+        /// <summary>
+        /// 更新玩家卡牌数量
+        /// </summary>
+        /// <param name="playerName">玩家名称</param>
+        /// <param name="cardColor">卡牌颜色</param>
+        /// <returns></returns>
+        Task<Player> UpdatePlayerCardCountAsync(string playerName, CardColor cardColor);
     }
 }

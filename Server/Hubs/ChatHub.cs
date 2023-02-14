@@ -112,6 +112,29 @@ namespace Server.Hubs
             {
                 await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", playerName, "You are not the roomowner");
             }
+
+            var currentIndex = _playerService.GetCurrentPlayerIndex();
+
+            var playerList = await _playerService.GetAllPlayersAsync();
+            var onlinePlayer = playerList.Where(p => p.IsOffLine == false).ToList();
+
+            try
+            {
+                var onlinePlayerObj = onlinePlayer[currentIndex];
+
+                await Clients.All.SendAsync("ReceiveMessage", onlinePlayerObj.Name, "Start rolling dice");
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+
+
+            //var userIndex = _playerService.ComputeCurrentPlayerIndex(playerName);
+
+
+
             //var playerList = await _playerService.GetAllPlayersAsync();
 
             //if (playerList.Count <= 0)
@@ -147,9 +170,18 @@ namespace Server.Hubs
                 return;
             }
 
+
+            var playerList = await _playerService.GetAllPlayersAsync();
+            var onlinePlayer = playerList.Where(p => p.IsOffLine == false).ToList();
+
+            if (onlinePlayer.Count <= 0)
+            {
+                _gameService.SetGameRoomOwner(gameStartData.PlayerName);
+            }
+
             if (!string.IsNullOrEmpty(gameStartData.GameName))
             {
-                _gameService.SetGameName(gameStartData.GameName);
+                //_gameService.SetGameName(gameStartData.GameName);
                 _gameService.SetGameRoomOwner(gameStartData.PlayerName);
             }
 
@@ -184,20 +216,72 @@ namespace Server.Hubs
 
         public async Task RollDice(string user)
         {
+            if (_gameService.GetGameStatus())
+            {
+                await Clients.All.SendAsync("ReceiveMessage", user, "Game over The number of cards for all players is ok");
+                return;
+            }
+
+            var currentIndex = _playerService.GetCurrentPlayerIndex();
+
+            var userIndex = _playerService.ComputeCurrentPlayerIndex(user);
+
+            if (currentIndex != userIndex)
+            {
+                await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", user, "It's not your turn to play yet");
+
+                var playerList = await _playerService.GetAllPlayersAsync();
+                var onlinePlayer = playerList.Where(p => p.IsOffLine == false)
+                    .Select(p => p.Name).ToList();
+
+                if (currentIndex >= onlinePlayer.Count)
+                {
+                    _ = _playerService.UpdateCurrentPlayerIndex();
+                }
+
+
+                return;
+            }
+
+            _ = _playerService.UpdateCurrentPlayerIndex();
+
             var data = _gameService.RollDice(user);
+
+
 
             //判断卡片逻辑 如果存在颜色卡片暂停游戏进程进行卡片游戏
 
             if (data.CardColor != CardColor.None)
             {
+                var playerResut = await _playerService.UpdatePlayerCardCountAsync(user, data.CardColor);
+
+                await Clients.All.SendAsync("ReceiveMessage", user, $"Number of cards CardG-{playerResut.CardG} CardB-{playerResut.CardB} CardY-{playerResut.CardY}");
+
+                if (playerResut.CardNumIsOk == true)
+                {
+                    await Clients.All.SendAsync("ReceiveMessage", user, "The number of cards is sufficient");
+                }
+
+                var playerList = await _playerService.GetAllPlayersAsync();
+
+                var onlinePlayerObj = playerList.Where(p => p.IsOffLine == false).ToList();
+
+                var okCount = onlinePlayerObj.Where(p => p.CardNumIsOk).ToList().Count;
+
+                if (okCount > 0)
+                {
+                    if (onlinePlayerObj.Count == onlinePlayerObj.Count)
+                    {
+                        _gameService.SetGameStatus(true);
+                        await Clients.All.SendAsync("ReceiveMessage", user, "Game over The number of cards for all players is ok");
+                    }
+                }
+
                 await Clients.AllExcept(Context.ConnectionId).SendAsync("ReceiveMessage", user, $"Go to Card Games Card Colors--{data.CardColor}");
                 await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessage", user, $"You lead the card game Card Colors--{data.CardColor}");
-                return;
+                //return;
             }
-            else
-            {
-                await Clients.All.SendAsync("RollDiceResult", data);
-            }
+            await Clients.Client(Context.ConnectionId).SendAsync("RollDiceResult", data);
 
             var player = new Player
             {
@@ -214,7 +298,23 @@ namespace Server.Hubs
                 await Clients.All.SendAsync("ReceiveMessage", user, $"An error has occurred--{ex.Message}");
             }
 
-            await Clients.All.SendAsync("ReceiveMessage", user, System.Text.Json.JsonSerializer.Serialize(data)); ;
+            await Clients.All.SendAsync("ReceiveMessage", user, System.Text.Json.JsonSerializer.Serialize(data));
+
+            var currentIndex1 = _playerService.GetCurrentPlayerIndex();
+
+            var playerList1 = await _playerService.GetAllPlayersAsync();
+            var onlinePlayer1 = playerList1.Where(p => p.IsOffLine == false).ToList();
+
+            try
+            {
+                var onlinePlayerObj1 = onlinePlayer1[currentIndex1];
+
+                await Clients.All.SendAsync("ReceiveMessage", onlinePlayerObj1.Name, "Start rolling dice");
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
         #endregion
     }

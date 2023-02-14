@@ -13,6 +13,8 @@ namespace Server.Services
         private static string _gameName = "Snakes And Ladders";
 
         private static string _gameRoomOwner = string.Empty;
+
+        private static bool _gameStatus = false;
         public GameService(IDiceRoller diceRoller, IGameFactory gameFactory)
         {
             _diceRoller = diceRoller;
@@ -97,6 +99,16 @@ namespace Server.Services
             {
                 _gameRoomOwner = gameRoomOwner;
             }
+        }
+
+        public bool GetGameStatus()
+        {
+            return _gameStatus;
+        }
+
+        public void SetGameStatus(bool isGameOver)
+        {
+            _gameStatus = isGameOver;
         }
     }
 }
