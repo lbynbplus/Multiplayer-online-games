@@ -64,6 +64,22 @@ button:hover {
     padding-right: 12px;
 }
 
+.timer-start-icons{
+    display:flex;
+    flex-direction:row;
+}
+
+#timer {
+    margin-left: 12px;
+    border: 1px solid #000;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+    color: #fff;
+}
+
 .game-title h3 {
     font-size: 35px;
     font-weight: 800;
@@ -175,11 +191,13 @@ button:hover {
 .rollBtn {
     background: lightblue;
     line-height: 1.5;
-    padding: 27px;
+    width: 20%;
+    font-size: 25px;
     font: 700 1.2rem 'poppins', sans-serif;
     letter-spacing: 0.05rem;
     cursor: pointer;
     margin-left: 100px;
+    text-align: center;
 }
 
 .exit-btn{
